@@ -1,2 +1,2 @@
 # leetcode
-![Leetcode Stats](https://leetcard.jacoblin.cool/dejoe)
+![LeetCode Stats](https://leetcard.jacoblin.cool/dejoe?theme=dark&font=Padauk&ext=activity)
