@@ -29,10 +29,12 @@
 | [0091-decode-ways](https://github.com/dej0e/leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+| [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 ## Array
 |  |
 | ------- |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+| [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 ## Trie
 |  |
 | ------- |
@@ -41,4 +43,8 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
