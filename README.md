@@ -38,6 +38,7 @@
 | ------- |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 ## Trie
@@ -55,6 +56,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/dej0e/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/dej0e/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [1142-minimum-knight-moves](https://github.com/dej0e/leetcode/tree/master/1142-minimum-knight-moves) |
@@ -83,6 +85,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 ## Union Find
 |  |
