@@ -1,13 +1,10 @@
 from collections import deque
-
 INF = 2147483647
-
 class Solution:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
         """
         Do not return anything, modify rooms in-place instead.
         """
-        # WRITE YOUR BRILLIANT CODE HERE
 
         num_rows = len(rooms)
         num_cols = len(rooms[0])
