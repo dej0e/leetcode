@@ -8,6 +8,7 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+| [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 ## String
 |  |
 | ------- |
@@ -17,6 +18,7 @@
 | [0093-restore-ip-addresses](https://github.com/dej0e/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+| [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 ## Backtracking
 |  |
 | ------- |
@@ -41,6 +43,7 @@
 | [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
+| [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 ## Trie
 |  |
 | ------- |
@@ -59,6 +62,7 @@
 | [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
+| [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [1142-minimum-knight-moves](https://github.com/dej0e/leetcode/tree/master/1142-minimum-knight-moves) |
 ## Tree
 |  |
