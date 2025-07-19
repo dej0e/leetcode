@@ -33,6 +33,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
+| [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
 | [0091-decode-ways](https://github.com/dej0e/leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
@@ -111,4 +112,12 @@
 | ------- |
 | [0207-course-schedule](https://github.com/dej0e/leetcode/tree/master/0207-course-schedule) |
 | [0444-sequence-reconstruction](https://github.com/dej0e/leetcode/tree/master/0444-sequence-reconstruction) |
+## Math
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
