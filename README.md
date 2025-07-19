@@ -34,6 +34,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0091-decode-ways](https://github.com/dej0e/leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
@@ -41,6 +42,7 @@
 ## Array
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
@@ -95,6 +97,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
