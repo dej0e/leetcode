@@ -50,6 +50,7 @@
 | [0444-sequence-reconstruction](https://github.com/dej0e/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
+| [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 ## Trie
 |  |
 | ------- |
@@ -71,6 +72,7 @@
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
+| [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1142-minimum-knight-moves](https://github.com/dej0e/leetcode/tree/master/1142-minimum-knight-moves) |
 ## Tree
 |  |
@@ -101,6 +103,7 @@
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
+| [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 ## Union Find
 |  |
 | ------- |
