@@ -44,6 +44,7 @@
 ## Array
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dej0e/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0130-surrounded-regions](https://github.com/dej0e/leetcode/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
@@ -153,4 +154,8 @@
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
+## Binary Search
+|  |
+| ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dej0e/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 <!---LeetCode Topics End-->
