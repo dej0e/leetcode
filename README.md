@@ -46,6 +46,7 @@
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dej0e/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/dej0e/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/dej0e/leetcode/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
@@ -117,6 +118,7 @@
 |  |
 | ------- |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/dej0e/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/dej0e/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/dej0e/leetcode/tree/master/0221-maximal-square) |
@@ -160,6 +162,7 @@
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dej0e/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0074-search-a-2d-matrix](https://github.com/dej0e/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/dej0e/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 ## Design
