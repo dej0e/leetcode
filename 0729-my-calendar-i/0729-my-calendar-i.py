@@ -1,22 +1,20 @@
+from sortedcontainers import SortedList
+
 class MyCalendar:
 
     def __init__(self):
-        self.calendar = []
+        self.calendar = SortedList()
 
-    def book(self, start: int, end: int) -> bool:
-        left, right, idx = 0, len(self.calendar)-1, len(self.calendar)
-        while left <= right:
-          mid = (left + right) // 2
-          if self.calendar[mid][0] > start:
-              idx = mid
-              right = mid - 1
-          else:
-              left = mid + 1
-        # check if calendar[idx-1] or calendar[idx] overlaps with start and end
-        if (idx > 0 and self.calendar[idx-1][1] > start) or (idx < len(self.calendar) and self.calendar[idx][0] < end):
+    def book(self, startTime: int, endTime: int) -> bool:
+        i = bisect_left(self.calendar, (startTime, endTime)) # Gives leftmost index to insert
+        if i > 0 and self.calendar[i-1][1] > startTime:
             return False
-        self.calendar.insert(idx, (start, end))
-        return True 
+        if i < len(self.calendar) and endTime > self.calendar[i][0]:
+            return False
+
+        self.calendar.add((startTime,endTime))
+        return True
+        
 
 
 # Your MyCalendar object will be instantiated and called as such:
