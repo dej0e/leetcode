@@ -6,6 +6,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0127-word-ladder](https://github.com/dej0e/leetcode/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
@@ -14,6 +15,7 @@
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0091-decode-ways](https://github.com/dej0e/leetcode/tree/master/0091-decode-ways) |
@@ -206,5 +208,6 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 <!---LeetCode Topics End-->
