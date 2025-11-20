@@ -114,6 +114,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/dej0e/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/dej0e/leetcode/tree/master/0226-invert-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -139,6 +140,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/dej0e/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/dej0e/leetcode/tree/master/0226-invert-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Matrix
 |  |
@@ -237,4 +239,8 @@
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0784-insert-into-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 <!---LeetCode Topics End-->
