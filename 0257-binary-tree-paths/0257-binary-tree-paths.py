@@ -10,8 +10,7 @@ class Solution:
             if not node:
                 return path
             if not node.left and not node.right:  # if no children
-                path.append(str(node.val))
-                res.append("->".join(path))
+                res.append("->".join(path + [str(node.val)]))
                 return
             if node.left:
                 dfs(node.left, path + [str(node.val)], res)
