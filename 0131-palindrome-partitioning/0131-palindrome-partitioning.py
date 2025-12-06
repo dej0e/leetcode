@@ -6,7 +6,7 @@ class Solution:
         def is_palindrome(s):
             return s == s[::-1]
 
-        def dfs(start_index):
+        def dfs(start_index, path):
             if start_index == n:
                 res.append(path.copy())
                 return
@@ -15,7 +15,7 @@ class Solution:
                 prefix = s[start_index:end_index]
                 if is_palindrome(prefix):
                     path.append(prefix)
-                    dfs(end_index)
+                    dfs(end_index, path)
                     path.pop()
-        dfs(0)
+        dfs(0, [])
         return res
