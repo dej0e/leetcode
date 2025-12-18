@@ -9,8 +9,11 @@ class Solution:
                     res.append(path.copy())
                 return
             
+            # Adding current number to path
             path.append(nums[i])
             dfs(i+1)
+
+            # Without adding current number to path
             path.pop()
             dfs(i+1)
                 
