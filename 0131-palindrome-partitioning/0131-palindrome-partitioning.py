@@ -14,7 +14,9 @@ class Solution:
                 prefix = s[i:j+1]
                 if not is_palindrome(prefix):
                     continue
-                dfs(j+1, part + [prefix])
+                part.append(prefix)
+                dfs(j+1, part)
+                part.pop()
 
         dfs(0,[])
         return res
