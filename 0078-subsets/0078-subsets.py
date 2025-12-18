@@ -9,10 +9,10 @@ class Solution:
                     res.append(path.copy())
                 return
             
-            for j in range(i, n):
-                path.append(nums[j])
-                dfs(j+1)
-                path.pop()
-                dfs(j+1)
+            path.append(nums[i])
+            dfs(i+1)
+            path.pop()
+            dfs(i+1)
+                
         dfs(0)
         return res
