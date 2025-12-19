@@ -37,6 +37,7 @@
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/dej0e/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/dej0e/leetcode/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/dej0e/leetcode/tree/master/0078-subsets) |
 | [0093-restore-ip-addresses](https://github.com/dej0e/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0113-path-sum-ii](https://github.com/dej0e/leetcode/tree/master/0113-path-sum-ii) |
@@ -62,6 +63,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dej0e/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/dej0e/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/dej0e/leetcode/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/dej0e/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/dej0e/leetcode/tree/master/0078-subsets) |
