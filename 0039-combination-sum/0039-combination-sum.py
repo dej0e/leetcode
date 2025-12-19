@@ -9,13 +9,16 @@ class Solution:
                 return
             if i == n or sum > target:
                 return
-
-            for j in range(i, n):
-                nextnum = candidates[j]
-                if sum + nextnum > target:
-                    continue
-                path.append(nextnum)
-                dfs(j, sum + nextnum)
-                path.pop()
+            path.append(candidates[i])
+            dfs(i, sum+candidates[i])
+            path.pop()
+            dfs(i+1, sum)
+            # for j in range(i, n):
+            #     nextnum = candidates[j]
+            #     if sum + nextnum > target:
+            #         continue
+            #     path.append(nextnum)
+            #     dfs(j, sum + nextnum)
+            #     path.pop()
         dfs(0, 0)
         return res
