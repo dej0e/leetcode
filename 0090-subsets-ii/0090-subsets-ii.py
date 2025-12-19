@@ -3,16 +3,16 @@ class Solution:
         nums.sort()
         res = []
         path = []
-
+        n = len(nums)
         def dfs(i):
-            if i == len(nums):
-                if path not in res:
-                    res.append(path[:])
-                return
+            res.append(path[:])
+
             
-            path.append(nums[i])
-            dfs(i+1)
-            path.pop()
-            dfs(i+1)
+            for j in range(i, n):
+                if j > i and nums[j] == nums[j-1]:
+                    continue
+                path.append(nums[j])
+                dfs(j+1)
+                path.pop()
         dfs(0)
         return res
