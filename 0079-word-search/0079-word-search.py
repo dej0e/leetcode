@@ -14,9 +14,8 @@ class Solution:
                 neighbor_row = row + delta_row[i]
                 neighbor_col = col + delta_col[i]
                 if 0 <= neighbor_row < num_rows and 0 <= neighbor_col < num_cols:
-                    if visited[neighbor_row][neighbor_col]:
-                        continue
-                    neighbors.append((neighbor_row, neighbor_col))
+                    if not visited[neighbor_row][neighbor_col]:
+                        neighbors.append((neighbor_row, neighbor_col))
             return neighbors
         
         def dfs(i, path, row, col):
@@ -25,25 +24,23 @@ class Solution:
                 return True
             
             found = False
+            visited[row][col] = True
             for nei_row, nei_col in get_neighbor(row, col):
                 if board[nei_row][nei_col] == word[i+1]:
                     path.append(board[nei_row][nei_col])
-                    visited[nei_row][nei_col] = True
                     found = found or dfs(i+1, path, nei_row, nei_col)
-                    visited[nei_row][nei_col] = False
                     path.pop()
 
                     if found:
                         return True
+            visited[row][col] = False
             return found
         
         for r in range(num_rows):
             for c in range(num_cols):
                 if board[r][c] != word[0]:
                     continue
-                visited[r][c] = True
                 if dfs(0, [board[r][c]], r, c):
                     return True
-                visited[r][c] = False
         return False
 
