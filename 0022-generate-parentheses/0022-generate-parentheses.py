@@ -1,21 +1,19 @@
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         res = []
-
-        def dfs(i, path, open, close):
-            if i == n*2:
+        def dfs(i, path, openn, close):
+            if openn == close == n:
                 res.append("".join(path))
                 return
             
-            if open < n:
+            if openn < n:
                 path.append("(")
-                dfs(i+1, path, open+1, close)
+                dfs(i+1, path, openn + 1, close)
                 path.pop()
             
-            if close < open:
+            if close < openn:
                 path.append(")")
-                dfs(i+1, path, open, close+1)
+                dfs(i+1, path, openn, close + 1)
                 path.pop()
-            
         dfs(0, [], 0, 0)
         return res
