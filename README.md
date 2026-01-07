@@ -12,6 +12,7 @@
 | [0127-word-ladder](https://github.com/dej0e/leetcode/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 ## String
 |  |
@@ -30,6 +31,7 @@
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 ## Backtracking
 |  |
@@ -248,6 +250,7 @@
 | [0125-valid-palindrome](https://github.com/dej0e/leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dej0e/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/dej0e/leetcode/tree/master/0283-move-zeroes) |
+| [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 ## Greedy
 |  |
 | ------- |
@@ -258,6 +261,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/dej0e/leetcode/tree/master/0076-minimum-window-substring) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 ## Prefix Sum
 |  |
 | ------- |
