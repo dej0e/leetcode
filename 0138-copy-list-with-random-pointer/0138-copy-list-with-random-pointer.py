@@ -29,7 +29,6 @@ class Solution:
             old_newnode_map[curr_old] = new_node
             curr_old = curr_old.next
 
-        new_oldnode_map = {v: k for k, v in old_newnode_map.items()}
 
         curr_old = head
         curr_new = new_head
