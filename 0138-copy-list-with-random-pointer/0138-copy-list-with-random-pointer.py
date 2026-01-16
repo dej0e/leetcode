@@ -10,7 +10,7 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: "Optional[Node]") -> "Optional[Node]":
-        old_newnode_map = {}
+        old_newnode_map = {None: None}
         curr_old = head
         curr_new = None
         new_head = None
@@ -29,12 +29,10 @@ class Solution:
             old_newnode_map[curr_old] = new_node
             curr_old = curr_old.next
 
-
         curr_old = head
         curr_new = new_head
         while curr_old:
-            if curr_old.random:
-                curr_new.random = old_newnode_map.get(curr_old.random) 
+            curr_new.random = old_newnode_map.get(curr_old.random) 
             curr_old = curr_old.next
             curr_new = curr_new.next
 
