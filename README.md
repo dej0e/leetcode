@@ -12,6 +12,7 @@
 | [0127-word-ladder](https://github.com/dej0e/leetcode/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/dej0e/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/dej0e/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
@@ -236,6 +237,7 @@
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 ## Segment Tree
@@ -291,4 +293,9 @@
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/dej0e/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
