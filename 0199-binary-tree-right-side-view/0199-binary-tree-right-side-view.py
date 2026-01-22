@@ -15,13 +15,13 @@ class Solution:
             level = []
             for i in range(qlen):
                 node = q.popleft()
-                if node:
-                    q.append(node.right)
+                if node: 
                     q.append(node.left)
+                    q.append(node.right)
                     level.append(node.val)
             if level:
                 levels.append(level)
         right_nodes = []
         for level in levels:
-            right_nodes.append(level[0])
+            right_nodes.append(level[-1])
         return right_nodes
