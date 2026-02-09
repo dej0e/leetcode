@@ -14,6 +14,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/dej0e/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/dej0e/leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -35,6 +36,7 @@
 | [0127-word-ladder](https://github.com/dej0e/leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/dej0e/leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -114,6 +116,7 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 ## Memoization
 |  |
 | ------- |
@@ -280,6 +283,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
