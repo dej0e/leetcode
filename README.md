@@ -37,6 +37,7 @@
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dej0e/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/dej0e/leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -117,6 +118,7 @@
 | ------- |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dej0e/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 ## Memoization
 |  |
 | ------- |
@@ -179,6 +181,7 @@
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/dej0e/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/dej0e/leetcode/tree/master/0210-course-schedule-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dej0e/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/dej0e/leetcode/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dej0e/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -284,6 +287,7 @@
 | ------- |
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/dej0e/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
