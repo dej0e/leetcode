@@ -21,13 +21,8 @@ class WordDictionary:
         cur = self.root
         for idx, c in enumerate(word):
             if c == ".":
-                dotAlphaMap = {}
                 for key in cur.children.keys():
-                    dotAlphaMap[key] = self.searchFromNode(
-                        cur.children[key], word, idx + 1
-                    )
-                for key, value in dotAlphaMap.items():
-                    if value == True:
+                    if self.searchFromNode(cur.children[key], word, idx + 1):
                         return True
                 return False
             elif c not in cur.children:
@@ -40,13 +35,8 @@ class WordDictionary:
         for i in range(startIndex, len(word)):
             c = word[i]
             if c == ".":
-                dotAlphaMap = {}
                 for key in cur.children.keys():
-                    dotAlphaMap[key] = self.searchFromNode(
-                        cur.children[key], word, i + 1
-                    )
-                for key, value in dotAlphaMap.items():
-                    if value == True:
+                    if self.searchFromNode(cur.children[key], word, i + 1):
                         return True
                 return False
             elif c not in cur.children:
