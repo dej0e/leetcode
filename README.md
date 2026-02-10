@@ -116,6 +116,7 @@
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/dej0e/leetcode/tree/master/1046-last-stone-weight) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Trie
 |  |
 | ------- |
@@ -148,6 +149,7 @@
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1142-minimum-knight-moves](https://github.com/dej0e/leetcode/tree/master/1142-minimum-knight-moves) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -236,6 +238,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
+| [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Union Find
 |  |
 | ------- |
