@@ -1,28 +1,31 @@
 from enum import Enum
+from collections import deque
 
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        class State(Enum):
-            TO_VISIT = 0
-            VISITING = 1
-            VISITED = 2
+        premap = defaultdict(list)
+        for course, prereq in prerequisites:
+            premap[course].append(prereq)
 
-        graph = {node: [] for node in range(numCourses)}
-        states = [State.TO_VISIT for node in range(numCourses)]
-        for src, dest in prerequisites:
-            graph[src].append(dest)
+        visiting = set()
 
-        def dfs(start):
-            states[start] = State.VISITING
-            for next_vertex in graph[start]:
-                if states[next_vertex] == State.VISITED:
-                    continue
-                if states[next_vertex] == State.VISITING:
+        def dfs(course):
+            if course in visiting:
+                return False  # cycle
+            if premap[course] == []:  # no more prereqs
+                return True
+
+            visiting.add(course)
+            for prereq in premap[course]:
+                if not dfs(prereq):
                     return False
-                if not dfs(next_vertex):
-                    return False
-            states[start] = State.VISITED
+            visiting.remove(course)
+            premap[course] = []  # all prereqs are counted already
             return True
 
-        return all(dfs(i) for i in range(numCourses))
+        for i in range(numCourses):
+            if not dfs(i):
+                return False
+
+        return True
