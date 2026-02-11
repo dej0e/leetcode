@@ -109,6 +109,7 @@
 | [0444-sequence-reconstruction](https://github.com/dej0e/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0540-single-element-in-a-sorted-array](https://github.com/dej0e/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
@@ -149,6 +150,7 @@
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [0994-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/0994-rotting-oranges) |
@@ -203,6 +205,7 @@
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -241,6 +244,7 @@
 | [0221-maximal-square](https://github.com/dej0e/leetcode/tree/master/0221-maximal-square) |
 | [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
@@ -418,4 +422,5 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
