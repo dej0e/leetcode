@@ -9,8 +9,7 @@ class Solution:
         directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 
         def bfs(source, ocean):
-            q = deque()
-            q.extend(source)
+            q = deque(source)
             while q:
                 r, c = q.popleft()
                 ocean[r][c] = True
