@@ -418,10 +418,12 @@
 | ------- |
 | [0133-clone-graph](https://github.com/dej0e/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/dej0e/leetcode/tree/master/0207-course-schedule) |
+| [0261-graph-valid-tree](https://github.com/dej0e/leetcode/tree/master/0261-graph-valid-tree) |
 ## Union-Find
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/dej0e/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
+| [0261-graph-valid-tree](https://github.com/dej0e/leetcode/tree/master/0261-graph-valid-tree) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
