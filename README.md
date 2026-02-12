@@ -151,6 +151,7 @@
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/dej0e/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0684-redundant-connection](https://github.com/dej0e/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
@@ -207,6 +208,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/dej0e/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0684-redundant-connection](https://github.com/dej0e/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -422,6 +424,7 @@
 | [0207-course-schedule](https://github.com/dej0e/leetcode/tree/master/0207-course-schedule) |
 | [0261-graph-valid-tree](https://github.com/dej0e/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/dej0e/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/dej0e/leetcode/tree/master/0684-redundant-connection) |
 ## Union-Find
 |  |
 | ------- |
@@ -429,5 +432,6 @@
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/dej0e/leetcode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/dej0e/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
+| [0684-redundant-connection](https://github.com/dej0e/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
