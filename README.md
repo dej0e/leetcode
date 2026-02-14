@@ -69,6 +69,7 @@
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
+| [0070-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/dej0e/leetcode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
@@ -130,6 +131,7 @@
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 ## Breadth-First Search
 |  |
@@ -277,6 +279,7 @@
 | ------- |
 | [0002-add-two-numbers](https://github.com/dej0e/leetcode/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Combinatorics
