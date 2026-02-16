@@ -27,6 +27,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/dej0e/leetcode/tree/master/0076-minimum-window-substring) |
@@ -66,6 +67,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
@@ -330,6 +332,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/dej0e/leetcode/tree/master/0011-container-with-most-water) |
 | [0125-valid-palindrome](https://github.com/dej0e/leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dej0e/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
