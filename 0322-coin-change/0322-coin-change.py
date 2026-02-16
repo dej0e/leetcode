@@ -1,27 +1,15 @@
-from math import inf
+import math
 
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        memo = [-1] * (amount +1)
 
-        def dfs(sum):
-            if sum == amount:
-                return 0
-            if sum > amount:
-                return inf
+        dp = [math.inf] * (amount + 1)
+        dp[0] = 0
+        for a in range(1, amount + 1):
+            for c in coins:
+                diff = a - c
+                if diff >= 0:
+                    dp[a] = min(dp[a], 1 + dp[diff])
 
-            if memo[sum] != -1:
-                return memo[sum]
-
-            ans = inf
-            for coin in coins:
-                result = dfs(sum + coin)
-                if result != inf:
-                    ans = min(ans, result + 1)
-
-            memo[sum] = ans
-            return ans
-
-        result = dfs(0)
-        return result if result != inf else -1
+        return dp[amount] if dp[amount] != math.inf else -1
