@@ -1,21 +1,16 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
-        memo: dict[int, bool] = {}
-
-        def dfs(start_index):
-            if start_index in memo:
-                return memo[start_index]
-            if start_index == len(s):
-                return 1
-            if s[start_index] == "0":
-                return 0
-
-            ways = 0
-            ways += dfs(start_index + 1)
-            if 10 <= int(s[start_index: start_index + 2]) <= 26:
-                ways += dfs(start_index + 2)
-
-            memo[start_index] = ways
-            return ways
-
-        return dfs(0)
+        dp = {}
+        n = len(s)
+        dp[n] = 1
+        for i in range(n - 1, -1, -1):
+            if s[i] == "0":
+                dp[i] = 0
+            else:
+                dp[i] = dp[i + 1]
+            if i + 1 < n and (
+                (s[i] == "1" and s[i + 1] in "0123456789")
+                or (s[i] == "2" and s[i + 1] in "0123456")
+            ):
+                dp[i] += dp[i+2]
+        return dp[0]
