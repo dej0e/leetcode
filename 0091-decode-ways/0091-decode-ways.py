@@ -1,8 +1,9 @@
 class Solution:
     def numDecodings(self, s: str) -> int:
 
-        n = len(s)
-        dp = {n: 1}
+        ## BOTTOM UP
+        # n = len(s)
+        # dp = {n: 1}
         # for i in range(n - 1, -1, -1):
         #     if s[i] == "0":
         #         dp[i] = 0
@@ -14,6 +15,9 @@ class Solution:
 
         # return dp[0]
 
+        ## TOP DOWN
+        n = len(s)
+        dp = {n: 1}
         def dfs(i):
             if i in dp:
                 return dp[i]
