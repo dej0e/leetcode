@@ -79,6 +79,7 @@
 | [0152-maximum-product-subarray](https://github.com/dej0e/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/dej0e/leetcode/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/dej0e/leetcode/tree/master/0221-maximal-square) |
+| [0300-longest-increasing-subsequence](https://github.com/dej0e/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0647-palindromic-substrings](https://github.com/dej0e/leetcode/tree/master/0647-palindromic-substrings) |
@@ -112,6 +113,7 @@
 | [0283-move-zeroes](https://github.com/dej0e/leetcode/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/dej0e/leetcode/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/dej0e/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/dej0e/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -311,6 +313,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dej0e/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dej0e/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/dej0e/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0300-longest-increasing-subsequence](https://github.com/dej0e/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0540-single-element-in-a-sorted-array](https://github.com/dej0e/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 | [0792-binary-search](https://github.com/dej0e/leetcode/tree/master/0792-binary-search) |
