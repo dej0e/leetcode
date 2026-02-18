@@ -6,8 +6,8 @@ class Solution:
         for i in range(n - 1, -1, -1):
             for w in wordDict:
                 wordLen = len(w)
-                if (i + len(w) <= n) and s[i : i + len(w)] == w:
-                    dp[i] = dp[i + len(w)]
-                if dp[i]:
+                if i + wordLen <= n and s[i : i + wordLen] == w:
+                    dp[i] = dp[i + wordLen]
+                if dp[i] == True:
                     break
         return dp[0]
