@@ -94,6 +94,7 @@
 | [0040-combination-sum-ii](https://github.com/dej0e/leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/dej0e/leetcode/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/dej0e/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/dej0e/leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/dej0e/leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -302,6 +303,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/dej0e/leetcode/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
