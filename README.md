@@ -83,6 +83,7 @@
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/dej0e/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/dej0e/leetcode/tree/master/0647-palindromic-substrings) |
 ## Array
 |  |
@@ -121,6 +122,7 @@
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/dej0e/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0444-sequence-reconstruction](https://github.com/dej0e/leetcode/tree/master/0444-sequence-reconstruction) |
 | [0540-single-element-in-a-sorted-array](https://github.com/dej0e/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
@@ -307,6 +309,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
+| [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Binary Search
@@ -356,6 +359,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/dej0e/leetcode/tree/master/0011-container-with-most-water) |
+| [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 ## Sliding Window
 |  |
