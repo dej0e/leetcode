@@ -94,6 +94,7 @@
 | [0040-combination-sum-ii](https://github.com/dej0e/leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/dej0e/leetcode/tree/master/0051-n-queens) |
+| [0057-insert-interval](https://github.com/dej0e/leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/dej0e/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/dej0e/leetcode/tree/master/0078-subsets) |
