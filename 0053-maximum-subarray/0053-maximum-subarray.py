@@ -8,7 +8,8 @@ class Solution:
         #     dp[i] = max(dp[i], nums[i]+dp[i-1])
         # return max(dp)
 
-        curSum = subMax = float("-inf")
+        curSum = 0
+        subMax = nums[0]
         for i in range(len(nums)):
             if curSum < 0:
                 curSum = 0
