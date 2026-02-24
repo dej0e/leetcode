@@ -70,6 +70,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
+| [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0070-climbing-stairs) |
@@ -95,6 +96,7 @@
 | [0040-combination-sum-ii](https://github.com/dej0e/leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/dej0e/leetcode/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/dej0e/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/dej0e/leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
@@ -420,6 +422,7 @@
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dej0e/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
