@@ -71,6 +71,7 @@
 | [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/dej0e/leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0070-climbing-stairs) |
@@ -99,6 +100,7 @@
 | [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/dej0e/leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/dej0e/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/dej0e/leetcode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/dej0e/leetcode/tree/master/0057-insert-interval) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
@@ -370,6 +372,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/dej0e/leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/dej0e/leetcode/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/dej0e/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
