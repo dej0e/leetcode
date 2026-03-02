@@ -6,13 +6,16 @@ class Solution:
         count = Counter(hand)
         for num in hand:
             start = num 
+            
             while count[start-1] > 0:
                 start=start-1
+
             while start <= num:
-                while count[start]:
+                while count[start] > 0:
                     for i in range(start, start + groupSize):
-                        if not count[i]:
+                        if count[i] <= 0:
                             return False
                         count[i] -= 1
                 start += 1
+
         return True
