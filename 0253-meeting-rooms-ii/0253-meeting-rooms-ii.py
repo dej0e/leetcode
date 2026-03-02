@@ -5,8 +5,7 @@ class Solution:
         intervals.sort(key=lambda x: x[0])
         minheap = []
         heapq.heappush(minheap, intervals[0][1])
-        for interval in intervals[1:]:
-            start, end = interval
+        for  start, end  in intervals[1:]:
             if minheap[0] <= start:
                 heapq.heappop(minheap)
             heapq.heappush(minheap, end)
