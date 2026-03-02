@@ -152,6 +152,7 @@
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/dej0e/leetcode/tree/master/1046-last-stone-weight) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 ## Trie
 |  |
 | ------- |
@@ -385,6 +386,7 @@
 | [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
+| [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 ## Sliding Window
 |  |
 | ------- |
