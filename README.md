@@ -23,6 +23,7 @@
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
+| [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
 ## String
 |  |
@@ -49,6 +50,7 @@
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/dej0e/leetcode/tree/master/0647-palindromic-substrings) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
+| [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 ## Backtracking
 |  |
 | ------- |
@@ -375,6 +377,7 @@
 | [0287-find-the-duplicate-number](https://github.com/dej0e/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/dej0e/leetcode/tree/master/0647-palindromic-substrings) |
+| [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 ## Greedy
 |  |
 | ------- |
@@ -385,6 +388,7 @@
 | [0253-meeting-rooms-ii](https://github.com/dej0e/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
+| [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 ## Sliding Window
