@@ -8,8 +8,9 @@ class Solution:
             leftHeight = height[l]
             rightHeight = height[r]
             maxArea = max(maxArea, min(leftHeight, rightHeight) * (r-l))
-            if leftHeight > rightHeight:
-                r -= 1
-            else:
+            if leftHeight <= rightHeight:
                 l += 1
+            else:
+                r -= 1
+                
         return maxArea
