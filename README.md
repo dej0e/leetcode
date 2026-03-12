@@ -74,6 +74,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/dej0e/leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/dej0e/leetcode/tree/master/0055-jump-game) |
@@ -104,6 +105,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dej0e/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/dej0e/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/dej0e/leetcode/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/dej0e/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/dej0e/leetcode/tree/master/0051-n-queens) |
@@ -375,6 +377,7 @@
 | [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/dej0e/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/dej0e/leetcode/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/dej0e/leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dej0e/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0253-meeting-rooms-ii](https://github.com/dej0e/leetcode/tree/master/0253-meeting-rooms-ii) |
@@ -507,4 +510,12 @@
 |  |
 | ------- |
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
