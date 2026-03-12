@@ -10,9 +10,9 @@ class Solution:
             if leftMax < rightMax: 
                 l+=1
                 leftMax = max(leftMax, height[l])
-                res += leftMax - height[l]
+                water[l] = leftMax - height[l]
             else:
                 r-=1
                 rightMax = max(rightMax, height[r])
-                res += rightMax - height[r]
-        return res
+                water [r] = rightMax - height[r]
+        return sum(water)
