@@ -17,6 +17,7 @@
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/dej0e/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -139,6 +140,7 @@
 | [0287-find-the-duplicate-number](https://github.com/dej0e/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/dej0e/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/dej0e/leetcode/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/dej0e/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -335,6 +337,7 @@
 | [0252-meeting-rooms](https://github.com/dej0e/leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/dej0e/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
@@ -459,6 +462,7 @@
 | [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dej0e/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
@@ -466,6 +470,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0253-meeting-rooms-ii](https://github.com/dej0e/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -483,10 +488,12 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 ## Graph Theory
 |  |
@@ -521,4 +528,8 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
