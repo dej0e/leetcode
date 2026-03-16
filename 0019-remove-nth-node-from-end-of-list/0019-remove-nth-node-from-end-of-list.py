@@ -8,15 +8,15 @@ class Solution:
         if not head:
             return head
         dummy = ListNode(val=0, next=head)
-        fast = head
+        right = head
         for i in range(n):
-            fast = fast.next
+            right = right.next
 
-        slow = dummy
-        while fast:
-            fast = fast.next
-            slow = slow.next
+        left = dummy
+        while right:
+            right = right.next
+            left = left.next
         
-        slow.next = slow.next.next
+        left.next = left.next.next
         return dummy.next
         
