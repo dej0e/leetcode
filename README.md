@@ -27,6 +27,7 @@
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
+| [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 ## String
 |  |
 | ------- |
@@ -53,6 +54,7 @@
 | [0647-palindromic-substrings](https://github.com/dej0e/leetcode/tree/master/0647-palindromic-substrings) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
+| [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1143-longest-common-subsequence](https://github.com/dej0e/leetcode/tree/master/1143-longest-common-subsequence) |
 ## Backtracking
 |  |
@@ -363,6 +365,7 @@
 | [0792-binary-search](https://github.com/dej0e/leetcode/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0907-koko-eating-bananas) |
+| [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Design
 |  |
 | ------- |
@@ -373,6 +376,7 @@
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
+| [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Segment Tree
 |  |
 | ------- |
