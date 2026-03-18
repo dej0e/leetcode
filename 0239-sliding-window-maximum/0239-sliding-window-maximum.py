@@ -10,9 +10,9 @@ class Solution:
 
             while q[0] < l:
                 q.popleft()
-            
-            if (r-l+1) == k:
+
+            if (r - l + 1) == k:
                 res.append(nums[q[0]])
-                l+=1
-            r+=1
+                l += 1
+            r += 1
         return res
