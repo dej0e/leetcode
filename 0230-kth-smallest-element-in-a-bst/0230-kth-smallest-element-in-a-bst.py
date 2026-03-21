@@ -6,6 +6,7 @@
 #         self.right = right
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+       
         cnt = k
         res = root.val
         def dfs(node):
@@ -19,7 +20,6 @@ class Solution:
                 res = node.val
                 return
             dfs(node.right)
-        
         dfs(root)
         return res
-        
+
