@@ -1,24 +1,26 @@
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
-        candidates.sort()
         res = []
-        path = []
-        n = len(candidates)
-        def dfs(i, sum):
-            if sum == target and path.copy() not in res:
-                res.append(path.copy())
+        candidates.sort()
+        def dfs(i, curr, total):
+            if total == target:
+                res.append(curr.copy())
                 return
-            if i >= n or sum > target:
+            if total > target or i == len(candidates):
                 return
             
-            for j in range(i, n):
+            for j in range(i, len(candidates)):
+                # Do not allow the same number in the same recursion level. Skip it. 
+                # In deeper recursion levels, this would work as at that point j == i.
                 if j > i and candidates[j] == candidates[j - 1]:
                     continue
-                nextnum = candidates[j]
-                if sum + nextnum > target:
+               
+                if total + candidates[j] > target:
                     break
-                path.append(nextnum)
-                dfs(j+1, sum+nextnum)
-                path.pop()
-        dfs(0, 0)
+
+                curr.append(candidates[j])
+                dfs(j + 1, curr, total + candidates[j])
+                curr.pop()
+         
+        dfs(0, [], 0)
         return res
