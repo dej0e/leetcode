@@ -6,8 +6,6 @@ class Solution:
         visited = [[False] * COLS for _ in range(ROWS)]
 
         def dfs(r, c, i):
-            if i == len(word):
-                return True
 
             if (r < 0 or c < 0 or r >= ROWS or c >= COLS):
                 return False
@@ -16,6 +14,9 @@ class Solution:
                 return False
             
             
+            if i == len(word) - 1:
+                return True
+
             visited[r][c] = True
             directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
             
@@ -23,7 +24,9 @@ class Solution:
             for dr, dc in directions:
                 nr, nc = r + dr, c + dc
                 if dfs(nr, nc, i + 1):
+                    visited[r][c] = False
                     return True
+
             visited[r][c] = False
             return False
         
