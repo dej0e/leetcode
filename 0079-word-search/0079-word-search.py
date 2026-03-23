@@ -3,31 +3,26 @@ class Solution:
         
         ROWS = len(board)
         COLS = len(board[0])
-        visited = [[False] * COLS for _ in range(ROWS)]
+        visited = set()
 
         def dfs(r, c, i):
-
-            if (r < 0 or c < 0 or r >= ROWS or c >= COLS):
-                return False
-            
-            if visited[r][c] or board[r][c] != word[i]:
-                return False
-            
-            
-            if i == len(word) - 1:
+            if i == len(word):
                 return True
-
-            visited[r][c] = True
-            directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
             
-            res = False
+            if r < 0 or c < 0 or r >= ROWS or c >= COLS or board[r][c] != word[i] or (r,c) in visited:
+                return False
+            
+            visited.add((r, c))
+            directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
             for dr, dc in directions:
-                nr, nc = r + dr, c + dc
+                nr = r + dr
+                nc = c + dc
                 if dfs(nr, nc, i + 1):
-                    visited[r][c] = False
+                    visited.remove((r, c))
                     return True
 
-            visited[r][c] = False
+
+            visited.remove((r, c))
             return False
         
         for r in range(ROWS):
