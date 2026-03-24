@@ -10,18 +10,21 @@ class Solution:
         """
         ROWS, COLS = len(rooms), len(rooms[0])
         q = deque()
-        directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
         for r in range(ROWS):
             for c in range(COLS):
                 if rooms[r][c] == 0:
                     q.append((r, c))
+        level = 1
+        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
         while q:
-            r, c = q.popleft()
-            for dr, dc in directions:
-                nr = r + dr
-                nc = c + dc
-                if 0 <= nr < ROWS and 0 <= nc < COLS and rooms[nr][nc] == INF:
-                    rooms[nr][nc] = rooms[r][c] + 1
-                    q.append((nr,nc))
-    
+            for i in range(len(q)):
+                r, c = q.popleft()
+                for dr, dc in directions:
+                    nr, nc = dr+r, dc+c
+                    if min(nr, nc) < 0 or nr >= ROWS or nc >= COLS or rooms[nr][nc] != INF:
+                        continue
+                    q.append((nr, nc))
+                    rooms[nr][nc] = level
+            level += 1
+        
