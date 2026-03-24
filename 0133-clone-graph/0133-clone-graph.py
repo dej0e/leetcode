@@ -12,24 +12,23 @@ class Solution:
         if not node:
             return None
         oldNewMap = {}
-        visited = set()
         q = deque()
         q.append(node)
-        visited.add(node)
+        newNode = Node(node.val)
+        oldNewMap[node] = newNode
 
         while q:
             curr = q.popleft()
-            newNode = Node(curr.val)
-            oldNewMap[curr] = newNode
             for neighbor in curr.neighbors:
-                if neighbor in visited:
-                    continue
-                q.append(neighbor)
-                visited.add(neighbor)
+                if neighbor not in oldNewMap:
+                    newNeiNode = Node(neighbor.val)
+                    oldNewMap[neighbor] = newNeiNode
+                    q.append(neighbor)
+                oldNewMap[curr].neighbors.append(oldNewMap[neighbor])
         
-        for old, new in oldNewMap.items():
-            for oneigh in old.neighbors:
-                new.neighbors.append(oldNewMap[oneigh])
+        # for old, new in oldNewMap.items():
+        #     for oneigh in old.neighbors:
+        #         new.neighbors.append(oldNewMap[oneigh])
         return oldNewMap[node]
 
             
