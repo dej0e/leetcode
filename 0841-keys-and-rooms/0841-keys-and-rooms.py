@@ -4,19 +4,28 @@ class Solution:
         for room, keys in enumerate(rooms):
             for key in keys:
                 adj[room].append(key)
-        
-
-
-        q = deque()
-        q.append(0)
         visited = set()
-        visited.add(0)
-
-        while q:
-            room = q.popleft()
+        def dfs(room):
+            if room in visited:
+                return
+            
+            visited.add(room)
             for room_accessible in adj[room]:
-                if room_accessible in visited:
-                    continue
-                q.append(room_accessible)
-                visited.add(room_accessible)
+                dfs(room_accessible)
+        
+        dfs(0)
         return len(visited) == len(rooms)
+
+        # q = deque()
+        # q.append(0)
+        # visited = set()
+        # visited.add(0)
+
+        # while q:
+        #     room = q.popleft()
+        #     for room_accessible in adj[room]:
+        #         if room_accessible in visited:
+        #             continue
+        #         q.append(room_accessible)
+        #         visited.add(room_accessible)
+        # return len(visited) == len(rooms)
