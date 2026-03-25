@@ -41,4 +41,3 @@ class Solution:
                 if pacVisit[r][c] and atlVisit[r][c]:
                     res.append((r, c))
         return res
-        
