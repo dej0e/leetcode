@@ -31,6 +31,7 @@ class Solution:
                     if ocean[nr][nc] == True or heights[nr][nc] < heights[r][c]:
                         continue
                     q.append((nr, nc))
+                    ocean[nr][nc] = True
 
         bfs(atl, atlVisit)
         bfs(pac, pacVisit)
