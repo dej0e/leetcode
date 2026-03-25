@@ -4,19 +4,18 @@ from enum import Enum
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         prereq = {i:[] for i in range(numCourses)}
-        for course, pr in prerequisites:
-            prereq[course].append(pr)
+        for course, p in prerequisites:
+            prereq[course].append(p)
         
-        res = []
-        completed = set()
         cycle = set()
+        completed = set()
+        res = []
         def dfs(course):
             if course in cycle:
                 return False
             
             if course in completed:
                 return True
-            
             
             cycle.add(course)
             for p in prereq[course]:
@@ -26,11 +25,10 @@ class Solution:
             completed.add(course)
             res.append(course)
             return True
-
+        
+        
         for i in range(numCourses):
             if not dfs(i):
                 return []
+            
         return res
-
-
-        
