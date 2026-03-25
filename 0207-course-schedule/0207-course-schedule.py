@@ -4,28 +4,26 @@ from collections import deque
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        premap = defaultdict(list)
-        for course, prereq in prerequisites:
-            premap[course].append(prereq)
-
-        visiting = set()
-
+        preq = {i:[] for i in range(numCourses)}
+        for course, pre in prerequisites:
+            preq[course].append(pre)
+        
+        visited = set()
         def dfs(course):
-            if course in visiting:
-                return False  # cycle
-            if premap[course] == []:  # no more prereqs
+            if course in visited:
+                return False
+            if preq[course] == []:
                 return True
 
-            visiting.add(course)
-            for prereq in premap[course]:
-                if not dfs(prereq):
+            visited.add(course)
+            for p in preq[course]:
+                if not dfs(p):
                     return False
-            visiting.remove(course)
-            premap[course] = []  # all prereqs are counted already
+            visited.remove(course)
+            preq[course] = []
             return True
-
+            
         for i in range(numCourses):
             if not dfs(i):
                 return False
-
         return True
