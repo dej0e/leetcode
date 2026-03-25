@@ -8,19 +8,20 @@ class Solution:
         for course, pre in prerequisites:
             preq[course].append(pre)
         
-        visited = set()
+        cycle = set()
+        completed = set()
         def dfs(course):
-            if course in visited:
+            if course in cycle:
                 return False
-            if preq[course] == []:
+            if course in completed:
                 return True
 
-            visited.add(course)
+            cycle.add(course)
             for p in preq[course]:
                 if not dfs(p):
                     return False
-            visited.remove(course)
-            preq[course] = []
+            cycle.remove(course)
+            completed.add(course)
             return True
             
         for i in range(numCourses):
