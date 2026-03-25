@@ -1,16 +1,13 @@
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
-        adj = {i:[] for i in range(len(rooms))}
-        for room, keys in enumerate(rooms):
-            for key in keys:
-                adj[room].append(key)
+        
         visited = set()
         def dfs(room):
             if room in visited:
                 return
             
             visited.add(room)
-            for room_accessible in adj[room]:
+            for room_accessible in rooms[room]:
                 dfs(room_accessible)
         
         dfs(0)
