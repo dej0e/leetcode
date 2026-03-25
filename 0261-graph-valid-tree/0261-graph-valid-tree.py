@@ -3,26 +3,25 @@ from enum import Enum
 
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
-        if len(edges) > n - 1:
+        if len(edges) > n-1:
             return False
-
         adj = {i:[] for i in range(n)}
-        for a, b in edges:
-            adj[a].append(b)
-            adj[b].append(a)
+        for n1, n2 in edges:
+            adj[n1].append(n2)
+            adj[n2].append(n1)
         
-        visited = set()
+        #bfs
         q = deque()
         q.append((0, -1))
-        visited.add(0)
+        visited = set()
         while q:
-            node, parent = q.popleft()
-            for neighbor in adj[node]:
-                if neighbor == parent:
-                    continue
-                if neighbor in visited:
-                    return False
-                q.append((neighbor, node))
-                visited.add(neighbor)
-        
-        return True if len(visited) == n else False
+            for _ in range(len(q)):
+                node, parent = q.popleft()
+                visited.add(node)
+                for neighbor in adj[node]:
+                    if neighbor == parent:
+                        continue
+                    if neighbor in visited:
+                        return False # no cycles
+                    q.append((neighbor, node))
+        return len(visited) == n
