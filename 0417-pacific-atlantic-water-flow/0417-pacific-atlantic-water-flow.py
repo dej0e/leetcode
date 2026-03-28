@@ -28,8 +28,13 @@ class Solution:
                 for dr, dc in directions:
                     nr = dr + r
                     nc = dc + c
-                    if 0 <= nr < ROWS and 0 <= nc < COLS and ocean[nr][nc] != True and heights[nr][nc] >= heights[r][c]:
-                        q.append((nr, nc))
+                    if (min(nr, nc) < 0 or nr >= ROWS or nc >= COLS):
+                        continue
+                    if ocean[nr][nc] == True or heights[nr][nc] < heights[r][c]:
+                        continue
+                    q.append((nr, nc))
+                    # if 0 <= nr < ROWS and 0 <= nc < COLS and ocean[nr][nc] != True and heights[nr][nc] >= heights[r][c]:
+                    #     q.append((nr, nc))
 
         res = []
         bfs(pac, pacVisit)
