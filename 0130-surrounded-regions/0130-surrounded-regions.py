@@ -15,8 +15,8 @@ class Solution:
             q = deque()
             for r in range(ROWS):
                 for c in range(COLS):
-                    if (r == 0 or r == ROWS -1 or c == 0 or c == COLS - 1) and board[r][c] == "O":
-                        q.append((r,c))
+                    if (r == 0 or r == ROWS - 1 or c == 0 or c == COLS - 1) and board[r][c] == "O":
+                        q.append((r, c))
             while q:
                 r, c = q.popleft()
                 visited.add((r, c))
