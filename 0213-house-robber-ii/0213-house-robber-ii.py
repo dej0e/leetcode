@@ -3,7 +3,7 @@ class Solution:
         if len(nums) == 1:
             return nums[0]
         n = len(nums)
-        return max(self.houseRob(nums[:n-1]), self.houseRob(nums[1:n]))
+        return max(self.houseRob(nums[:-1]), self.houseRob(nums[1:]))
 
     def houseRob(self, nums: List[int]):
         if len(nums) <= 2:
