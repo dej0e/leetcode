@@ -90,6 +90,7 @@
 | [0131-palindrome-partitioning](https://github.com/dej0e/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/dej0e/leetcode/tree/master/0152-maximum-product-subarray) |
+| [0198-house-robber](https://github.com/dej0e/leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/dej0e/leetcode/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/dej0e/leetcode/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/dej0e/leetcode/tree/master/0300-longest-increasing-subsequence) |
@@ -132,6 +133,7 @@
 | [0152-maximum-product-subarray](https://github.com/dej0e/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dej0e/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dej0e/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0198-house-robber](https://github.com/dej0e/leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/dej0e/leetcode/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/dej0e/leetcode/tree/master/0213-house-robber-ii) |
