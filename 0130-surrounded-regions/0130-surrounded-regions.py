@@ -6,30 +6,35 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-        ROWS, COLS = len(board), len(board[0])
+        ROWS = len(board)
+        COLS = len(board[0])
         directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+        visited = set()
 
-        #BFS
-        q = deque()
-        for r in range(ROWS):
-            for c in range(COLS):
-                if (
-                    r == 0
-                    or r == ROWS - 1
-                    or c == 0
-                    or c == COLS - 1
-                    and board[r][c] == "O"
-                ):
-                    q.append((r, c))
-        while q:
-            r, c = q.popleft()
-            if board[r][c] == "O":
+        def bfs():
+            q = deque()
+            for r in range(ROWS):
+                for c in range(COLS):
+                    if (r == 0 or r == ROWS -1 or c == 0 or c == COLS - 1) and board[r][c] == "O":
+                        q.append((r,c))
+            while q:
+                r, c = q.popleft()
+                visited.add((r, c))
                 board[r][c] = "T"
                 for dr, dc in directions:
-                    nr = r + dr
-                    nc = c + dc
-                    if 0 <= nr < ROWS and 0 <= nc < COLS:
-                        q.append((nr, nc))            
+                    nr = dr + r
+                    nc = dc + c
+                    if (
+                        min(nr, nc) < 0
+                        or nr >= ROWS
+                        or nc >= COLS
+                        or (nr, nc) in visited
+                        or board[nr][nc] != "O"
+                    ):
+                        continue
+                    q.append((nr, nc))
+
+        bfs()
 
         for r in range(ROWS):
             for c in range(COLS):
