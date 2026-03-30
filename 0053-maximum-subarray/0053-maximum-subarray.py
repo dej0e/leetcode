@@ -19,11 +19,20 @@ class Solution:
         #     subMax = max(subMax, curSum)
         # return subMax
 
-        dp = []
-        for i, num in enumerate(nums):
-            dp.append(num)
-        dp.append(-math.inf)
+        # dp = []
+        # for i, num in enumerate(nums):
+        #     dp.append(num)
+        # dp.append(-math.inf)
         
-        for i in range(n - 1, -1, -1):
-            dp[i] = max(nums[i], nums[i] + dp[i+1])
-        return max(dp)
+        # for i in range(n - 1, -1, -1):
+        #     dp[i] = max(nums[i], nums[i] + dp[i+1])
+        # return max(dp)
+
+        curSum = 0
+        maxSub = nums[0]
+        for num in nums:
+            if curSum < 0:
+                curSum = 0
+            curSum += num
+            maxSub = max(maxSub, curSum)
+        return maxSub
