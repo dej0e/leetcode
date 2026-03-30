@@ -1,16 +1,22 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         n = len(nums)
-        curSum = 0
-        maxSub = nums[0]
+        # curSum = 0
+        # maxSub = nums[0]
+        # for num in nums:
+        #     if curSum < 0:
+        #         curSum = 0
+        #     curSum += num
+        #     maxSub = max(maxSub, curSum)
+        # return maxSub
+
+        dp = []
         for num in nums:
-            if curSum < 0:
-                curSum = 0
-            curSum += num
-            maxSub = max(maxSub, curSum)
-        return maxSub
-
-
+            dp.append(num)
+        dp.append(-math.inf)
+        for i in range(n-1, -1, -1):
+            dp[i] = max(dp[i], nums[i] + dp[i+1])
+        return max(dp)
 
 
 
