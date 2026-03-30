@@ -1,6 +1,54 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         n = len(nums)
+        curSum = 0
+        maxSub = nums[0]
+        for num in nums:
+            if curSum < 0:
+                curSum = 0
+            curSum += num
+            maxSub = max(maxSub, curSum)
+        return maxSub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         ## DP approach -- Bottom Up (Space optimised)
         # dp = [n for n in nums]
         # # dp[i] has sum until i
