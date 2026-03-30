@@ -172,6 +172,7 @@
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/dej0e/leetcode/tree/master/1046-last-stone-weight) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 ## Trie
 |  |
@@ -501,6 +502,7 @@
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/dej0e/leetcode/tree/master/1046-last-stone-weight) |
+| [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 ## Data Stream
 |  |
 | ------- |
@@ -530,6 +532,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/dej0e/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/dej0e/leetcode/tree/master/0684-redundant-connection) |
 | [0841-keys-and-rooms](https://github.com/dej0e/leetcode/tree/master/0841-keys-and-rooms) |
+| [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 ## Union-Find
 |  |
 | ------- |
@@ -561,4 +564,8 @@
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Shortest Path
+|  |
+| ------- |
+| [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
