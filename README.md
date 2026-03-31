@@ -10,6 +10,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/dej0e/leetcode/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/dej0e/leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/dej0e/leetcode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/dej0e/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/dej0e/leetcode/tree/master/0127-word-ladder) |
@@ -40,6 +41,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/dej0e/leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/dej0e/leetcode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/dej0e/leetcode/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/dej0e/leetcode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/dej0e/leetcode/tree/master/0091-decode-ways) |
@@ -123,6 +125,7 @@
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/dej0e/leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/dej0e/leetcode/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/dej0e/leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/dej0e/leetcode/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/dej0e/leetcode/tree/master/0055-jump-game) |
@@ -364,6 +367,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/dej0e/leetcode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/dej0e/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/dej0e/leetcode/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0252-meeting-rooms](https://github.com/dej0e/leetcode/tree/master/0252-meeting-rooms) |
