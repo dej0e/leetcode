@@ -3,16 +3,18 @@ class Solution:
         rows = defaultdict(set)
         cols = defaultdict(set)
         squares = defaultdict(set)
-        for r in range(9):
+
+        for r in range(9): 
             for c in range(9):
-                num = board[r][c]
-                if num == ".":
+                if board[r][c] == ".":
                     continue
-
-                if num in rows[r] or num in cols[c] or num in squares[(r//3, c//3)]:
+                
+                value = board[r][c]
+                square = (r//3, c//3)
+                if value in rows[r] or value in cols[c] or value in squares[square]:
                     return False
-
-                rows[r].add(num)
-                cols[c].add(num)
-                squares[(r//3, c//3)].add(num)
+                
+                rows[r].add(value)
+                cols[c].add(value)
+                squares[square].add(value)
         return True
