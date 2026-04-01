@@ -6,7 +6,6 @@ class Solution:
         r = 0
         longest = 0
         for r in range(len(s)):
-
             if s[r] in map:
                 l = max(l, map[s[r]] + 1)
             map[s[r]] = r
