@@ -4,10 +4,10 @@ class Solution:
         score = 0
         for idx, num in enumerate(nums):
             heapq.heappush(heap, -num)
-        
+
         for i in range(k):
             maxitem = -heapq.heappop(heap)
-            score += (maxitem)
-            maxitem = ceil (maxitem/ 3)
+            score += maxitem
+            maxitem = ceil(maxitem / 3)
             heapq.heappush(heap, -maxitem)
         return score
