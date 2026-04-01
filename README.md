@@ -188,6 +188,7 @@
 | [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/dej0e/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/dej0e/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 ## Trie
 |  |
 | ------- |
@@ -451,6 +452,7 @@
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/dej0e/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 ## Sliding Window
 |  |
 | ------- |
@@ -530,6 +532,7 @@
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/dej0e/leetcode/tree/master/1046-last-stone-weight) |
 | [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/dej0e/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 ## Data Stream
 |  |
 | ------- |
