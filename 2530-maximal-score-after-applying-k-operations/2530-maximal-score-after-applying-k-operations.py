@@ -3,11 +3,11 @@ class Solution:
         heap = []
         score = 0
         for idx, num in enumerate(nums):
-            heapq.heappush(heap, (-num, idx))
+            heapq.heappush(heap, -num)
         
         for i in range(k):
-            maxitem, idx= heapq.heappop(heap)
-            score += (-maxitem)
-            nums[idx] = ceil (nums[idx] / 3)
-            heapq.heappush(heap, (-nums[idx], idx))
+            maxitem = -heapq.heappop(heap)
+            score += (maxitem)
+            maxitem = ceil (maxitem/ 3)
+            heapq.heappush(heap, -maxitem)
         return score
