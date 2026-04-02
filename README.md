@@ -440,6 +440,7 @@
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/dej0e/leetcode/tree/master/0647-palindromic-substrings) |
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/dej0e/leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Greedy
 |  |
 | ------- |
@@ -505,6 +506,7 @@
 | [0143-reorder-list](https://github.com/dej0e/leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/dej0e/leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Doubly-Linked List
 |  |
 | ------- |
