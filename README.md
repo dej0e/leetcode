@@ -32,6 +32,7 @@
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
 | [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
+| [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## String
 |  |
 | ------- |
@@ -64,6 +65,7 @@
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 | [1143-longest-common-subsequence](https://github.com/dej0e/leetcode/tree/master/1143-longest-common-subsequence) |
+| [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## Backtracking
 |  |
 | ------- |
@@ -465,6 +467,7 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
+| [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## Prefix Sum
 |  |
 | ------- |
