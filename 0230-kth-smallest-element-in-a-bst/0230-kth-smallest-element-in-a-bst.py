@@ -9,10 +9,10 @@ class Solution:
         count = k
         res = 0
         def dfs(node):
-            nonlocal count, res
+           
             if not node:
                 return 
-            
+            nonlocal count, res
             dfs(node.left)
             count -= 1
             if count == 0:
