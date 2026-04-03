@@ -49,10 +49,7 @@ class LRUCache:
 
         if len(self.cache) > self.capacity:
             popNode = self.lru.next
-            
-            self.lru.next= popNode.next
-            popNode.next.prev = self.lru
-            popNode.next = popNode.prev = None
+            self.remove(popNode)
             del self.cache[popNode.key]
         
             
