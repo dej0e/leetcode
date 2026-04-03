@@ -9,11 +9,13 @@ class Solution:
 
             def isValid(node, minval, maxval):
                 valid = True
+                if not (minval < node.val < maxval):
+                    return False
+                
                 if node.left:
                     valid = valid and isValid(node.left, minval, node.val)
                 
                 if node.right:
                     valid = valid and isValid(node.right, node.val, maxval)
-                valid = valid and minval < node.val < maxval
                 return valid
             return isValid(root, float("-infinity"), float("infinity"))
