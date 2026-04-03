@@ -256,6 +256,7 @@
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -289,6 +290,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/dej0e/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0417-pacific-atlantic-water-flow](https://github.com/dej0e/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/dej0e/leetcode/tree/master/0419-battleships-in-a-board) |
+| [0543-diameter-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/dej0e/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
@@ -317,6 +319,7 @@
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
