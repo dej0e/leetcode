@@ -1,6 +1,7 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res = []
+        nums.sort()
         def dfs(i, subset):
             if i >= len(nums):
                 res.append(subset[:])
