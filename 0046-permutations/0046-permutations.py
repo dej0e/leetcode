@@ -6,10 +6,7 @@ class Solution:
                 res.append(curr.copy())
                 return
 
-            if idx >= len(nums):
-                return
-
-            for i in range(0, len(nums)):
+            for i in range(len(nums)):
                 if picked[i]:
                     continue
                 curr.append(nums[i])
@@ -17,5 +14,6 @@ class Solution:
                 dfs(i, curr, picked)
                 picked[i] = False
                 curr.pop()
+
         dfs(0, [], [False]*len(nums))
         return res
