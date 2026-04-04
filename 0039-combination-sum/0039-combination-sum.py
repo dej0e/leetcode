@@ -2,17 +2,17 @@ class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         res = []
         candidates.sort()
-        def dfs(i, subset, total):
+        def dfs(i, cur, total):
             if total == target:
-                res.append(subset.copy())
+                res.append(cur.copy())
                 return
-            
-            for j in range(i, len(candidates)):
-                if total + candidates[j] > target:
-                    return
-                subset.append(candidates[j])
-                dfs(j, subset, total + candidates[j])
-                subset.pop()
+            if i >= len(candidates) or total + candidates[i] > target:
+                return
+
+            cur.append(candidates[i])
+            dfs(i, cur, total + candidates[i])
+            cur.pop()
+            dfs(i + 1, cur, total)
 
 
         dfs(0, [], 0)
