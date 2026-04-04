@@ -1,7 +1,7 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
-        def dfs(idx, curr):
+        def dfs(idx, curr, picked):
             if len(curr) == len(nums):
                 res.append(curr.copy())
                 return
@@ -10,10 +10,12 @@ class Solution:
                 return
 
             for i in range(0, len(nums)):
-                if nums[i] in curr:
+                if picked[i]:
                     continue
                 curr.append(nums[i])
-                dfs(i, curr)
+                picked[i] = True
+                dfs(i, curr, picked)
+                picked[i] = False
                 curr.pop()
-        dfs(0, [])
+        dfs(0, [], [False]*len(nums))
         return res
