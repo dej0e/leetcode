@@ -10,12 +10,12 @@ class Solution:
                 adj[pattern].append(word)
         
         visit = set()
-        q = deque([(beginWord, "")])
+        q = deque([beginWord])
         visit.add(beginWord)
         res = 1
         while q:
             for _ in range(len(q)):
-                word, parent = q.popleft()
+                word = q.popleft()
                 if word == endWord:
                     return res
                 for i in range(len(word)):
@@ -23,6 +23,6 @@ class Solution:
                     for neiWord in adj[pattern]:
                         if neiWord not in visit:
                             visit.add(neiWord)
-                            q.append((neiWord, word))
+                            q.append(neiWord)
             res += 1
         return 0
