@@ -3,6 +3,8 @@ from string import ascii_lowercase
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         wordSet = set(wordList)
+        if endWord not in wordList:
+            return 0
         adj = defaultdict(list)
         for word in wordSet:
             for i in range(len(word)):
