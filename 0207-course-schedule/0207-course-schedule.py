@@ -5,7 +5,6 @@ from collections import deque
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         premap = defaultdict(list)
-        prerequisites.sort(key=lambda x: x[0])
         for crs, pre in prerequisites:
             premap[crs].append(pre)
         
