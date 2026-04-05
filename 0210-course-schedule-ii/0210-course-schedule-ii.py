@@ -23,8 +23,8 @@ class Solution:
                     return False
             cycle.remove(crs)
             visited.add(crs)
-            res.append(crs)
             prereq[crs] = []
+            res.append(crs)
             return True
         
         for i in range(numCourses):
