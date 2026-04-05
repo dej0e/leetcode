@@ -5,43 +5,42 @@ class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         ROWS = len(heights)
         COLS = len(heights[0])
-        pacVisit = [[False] * COLS for _ in range(ROWS)]
-        atlVisit = [[False] * COLS for _ in range(ROWS)]
-        pac = []
-        atl = []
+        pacVisit = set()
+        atlVisit = set()
+        pacific = []
+        atlantic = []
         for r in range(ROWS):
-            pac.append((r, 0))
-            atl.append((r, COLS - 1))
-
+            pacific.append((r, 0))
+            atlantic.append((r, COLS - 1))
+        
         for c in range(COLS):
-            pac.append((0, c))
-            atl.append((ROWS - 1, c))
-
+            pacific.append((0, c))
+            atlantic.append((ROWS - 1, c))
+        
         directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
-
-        def bfs(source, ocean):
-            q = deque(source)
+        def bfs(row, col, ocean):
+            q = deque()
+            q.append((row, col))
+            ocean.add((row, col))
             while q:
                 r, c = q.popleft()
-                ocean[r][c] = True
-
+                
                 for dr, dc in directions:
-                    nr = dr + r
-                    nc = dc + c
-                    if (min(nr, nc) < 0 or nr >= ROWS or nc >= COLS):
-                        continue
-                    if ocean[nr][nc] == True or heights[nr][nc] < heights[r][c]:
+                    nr, nc = r + dr, c + dc 
+                    if min(nr, nc) < 0 or nr >= ROWS or nc >= COLS or heights[nr][nc] < heights[r][c] or (nr, nc) in ocean:
                         continue
                     q.append((nr, nc))
-                    # if 0 <= nr < ROWS and 0 <= nc < COLS and ocean[nr][nc] != True and heights[nr][nc] >= heights[r][c]:
-                    #     q.append((nr, nc))
+                    ocean.add((nr, nc))
+        
+        for r, c in pacific:
+            bfs(r, c, pacVisit)
+        for r, c in atlantic:
+            bfs(r, c, atlVisit)
 
         res = []
-        bfs(pac, pacVisit)
-        bfs(atl, atlVisit)
-
         for r in range(ROWS):
             for c in range(COLS):
-                if pacVisit[r][c] == True and atlVisit[r][c] == True:
-                    res.append((r, c))
+                if (r,c) in pacVisit and (r,c) in atlVisit:
+                    res.append([r, c])
+
         return res
