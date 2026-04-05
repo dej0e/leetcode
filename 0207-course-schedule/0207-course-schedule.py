@@ -4,27 +4,32 @@ from collections import deque
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        preq = {i:[] for i in range(numCourses)}
-        for course, pre in prerequisites:
-            preq[course].append(pre)
+        premap = defaultdict(list)
+        prerequisites.sort(key=lambda x: x[0])
+        for crs, pre in prerequisites:
+            premap[crs].append(pre)
         
-        cycle = set()
-        completed = set()
-        def dfs(course):
-            if course in cycle:
+        visiting = set()
+        def dfs(crs):
+            if crs in visiting:
                 return False
-            if course in completed:
-                return True
-
-            cycle.add(course)
-            for p in preq[course]:
-                if not dfs(p):
-                    return False
-            cycle.remove(course)
-            completed.add(course)
-            return True
             
-        for i in range(numCourses):
-            if not dfs(i):
+            if premap[crs] == []:
+                return True
+            
+            visiting.add(crs)
+            for pre in premap[crs]:
+                if not dfs(pre):
+                    return False
+            
+            visiting.remove(crs)
+            premap[crs] = []
+            return True
+
+            
+        
+        for crs in range(numCourses):
+            if not dfs(crs):
                 return False
+        
         return True
