@@ -177,6 +177,7 @@
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [0792-binary-search](https://github.com/dej0e/leetcode/tree/master/0792-binary-search) |
+| [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
 | [0875-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0907-koko-eating-bananas) |
@@ -230,6 +231,7 @@
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/dej0e/leetcode/tree/master/0743-network-delay-time) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
+| [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
 | [0841-keys-and-rooms](https://github.com/dej0e/leetcode/tree/master/0841-keys-and-rooms) |
 | [0994-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
@@ -298,6 +300,7 @@
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/dej0e/leetcode/tree/master/0743-network-delay-time) |
+| [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
 | [0841-keys-and-rooms](https://github.com/dej0e/leetcode/tree/master/0841-keys-and-rooms) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/dej0e/leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -346,6 +349,7 @@
 | [0419-battleships-in-a-board](https://github.com/dej0e/leetcode/tree/master/0419-battleships-in-a-board) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
+| [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -600,6 +604,7 @@
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/dej0e/leetcode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/dej0e/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
+| [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
 | [1584-min-cost-to-connect-all-points](https://github.com/dej0e/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Queue
 |  |
