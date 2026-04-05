@@ -9,26 +9,21 @@ class Node:
 from typing import Optional
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
+        
         if not node:
             return None
-        oldNewMap = {}
+       
+        oldToNew = {}
         q = deque()
-        q.append(node)
         newNode = Node(node.val)
-        oldNewMap[node] = newNode
-
+        oldToNew[node] = newNode
+        q.append(node)
         while q:
             curr = q.popleft()
-            for neighbor in curr.neighbors:
-                if neighbor not in oldNewMap:
-                    newNeiNode = Node(neighbor.val)
-                    oldNewMap[neighbor] = newNeiNode
-                    q.append(neighbor)
-                oldNewMap[curr].neighbors.append(oldNewMap[neighbor])
-        
-        # for old, new in oldNewMap.items():
-        #     for oneigh in old.neighbors:
-        #         new.neighbors.append(oldNewMap[oneigh])
-        return oldNewMap[node]
-
-            
+            for nei in curr.neighbors:
+                if nei not in oldToNew:
+                    neiNode = Node(nei.val)
+                    oldToNew[nei] = neiNode
+                    q.append(nei)
+                oldToNew[curr].neighbors.append(oldToNew[nei])
+        return oldToNew[node]
