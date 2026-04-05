@@ -3,32 +3,31 @@ from enum import Enum
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        prereq = {i:[] for i in range(numCourses)}
-        for course, p in prerequisites:
-            prereq[course].append(p)
+        res = []
+        prereq = {i: [] for i in range(numCourses)}
+        for crs, pre in prerequisites:
+            prereq[crs].append(pre)
         
         cycle = set()
-        completed = set()
-        res = []
-        def dfs(course):
-            if course in cycle:
+        visited = set()
+        def dfs(crs):
+            if crs in cycle:
                 return False
             
-            if course in completed:
+            if crs in visited:
                 return True
-            
-            cycle.add(course)
-            for p in prereq[course]:
-                if not dfs(p):
+
+            cycle.add(crs)
+            for pre in prereq[crs]:
+                if not dfs(pre):
                     return False
-            cycle.remove(course)
-            completed.add(course)
-            res.append(course)
+            cycle.remove(crs)
+            visited.add(crs)
+            res.append(crs)
+            prereq[crs] = []
             return True
-        
         
         for i in range(numCourses):
             if not dfs(i):
                 return []
-            
-        return res
+        return res if len(visited) == numCourses else []
