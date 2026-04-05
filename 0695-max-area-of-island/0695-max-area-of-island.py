@@ -1,30 +1,32 @@
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
         if not grid:
             return 0
-        ROWS, COLS = len(grid), len(grid[0])
-        area = 0
-
-        def bfs(r, c):
+        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+        ROWS = len(grid)
+        COLS = len(grid[0])
+        maxarea = 0
+        def bfs(row, col):
             q = deque()
-            grid[r][c] = 0
-            q.append((r, c))
-            res = 1
-
+            q.append((row, col))
+            grid[row][col] = 0
+            area = 0
             while q:
-                row, col = q.popleft()
+                r, c = q.popleft()
+                area += 1
                 for dr, dc in directions:
-                    nr = row + dr
-                    nc = col + dc
-                    if 0 <= nr < ROWS and 0 <= nc < COLS and grid[nr][nc] == 1:
-                        q.append((nr, nc))
-                        grid[nr][nc] = 0
-                        res += 1
-            return res
+                    nr, nc = dr + r, dc + c
+                    if min(nr, nc) < 0 or nr >= ROWS or nc >= COLS:
+                        continue
+                    if grid[nr][nc] == 0:
+                        continue
+                    q.append((nr, nc))
+                    grid[nr][nc] = 0
+            return area
 
         for r in range(ROWS):
             for c in range(COLS):
                 if grid[r][c] == 1:
-                    area = max(area, bfs(r, c))
-        return area
+                    area = bfs(r, c)
+                    maxarea = max(maxarea, area)    
+        return maxarea
