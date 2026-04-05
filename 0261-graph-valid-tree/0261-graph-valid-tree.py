@@ -3,7 +3,7 @@ from enum import Enum
 
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
-        if len(edges) > n - 1:
+        if len(edges) != n - 1:
             return False
 
         adj = {i: [] for i in range(n)}
