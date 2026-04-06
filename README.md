@@ -109,6 +109,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/dej0e/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0647-palindromic-substrings](https://github.com/dej0e/leetcode/tree/master/0647-palindromic-substrings) |
+| [0746-min-cost-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
 | [1143-longest-common-subsequence](https://github.com/dej0e/leetcode/tree/master/1143-longest-common-subsequence) |
@@ -176,6 +177,7 @@
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
+| [0746-min-cost-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0746-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [0792-binary-search](https://github.com/dej0e/leetcode/tree/master/0792-binary-search) |
 | [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
