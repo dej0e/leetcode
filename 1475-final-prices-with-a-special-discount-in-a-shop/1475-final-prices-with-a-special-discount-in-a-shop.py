@@ -1,9 +1,11 @@
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
         ans = [price for price in prices]
-        for i in range(len(prices)):
-            for j in range(i+1, len(prices)):
-                if prices[j] <= prices[i]:
-                    ans[i] = prices[i] - prices[j]
-                    break
+        stack = [] # indexes, values increasing order monotonic increase
+        for idx, price in enumerate(prices):
+            while stack and price <= prices[stack[-1]]:
+                popidx = stack.pop()
+                ans[popidx] = prices[popidx] - price
+            
+            stack.append(idx)
         return ans
