@@ -264,6 +264,7 @@
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/dej0e/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -332,6 +333,7 @@
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/dej0e/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/dej0e/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0450-delete-node-in-a-bst](https://github.com/dej0e/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
@@ -509,6 +511,7 @@
 | [0098-validate-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dej0e/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/dej0e/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/dej0e/leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
