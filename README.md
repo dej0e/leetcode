@@ -191,6 +191,7 @@
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/dej0e/leetcode/tree/master/1046-last-stone-weight) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/dej0e/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
@@ -634,10 +635,12 @@
 | [0020-valid-parentheses](https://github.com/dej0e/leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/dej0e/leetcode/tree/master/0143-reorder-list) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
+| [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Bucket Sort
 |  |
 | ------- |
