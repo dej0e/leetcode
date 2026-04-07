@@ -7,16 +7,16 @@
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
         
-        def dfs(node, currMax):
-            if not node:
-                return 0
+        # def dfs(node, currMax):
+        #     if not node:
+        #         return 0
             
-            res = 1 if node.val >= currMax else 0
-            res += dfs(node.left, max(currMax, node.val))
-            res += dfs(node.right, max(currMax, node.val))
-            return res
-        res = dfs(root, float("-infinity"))
-        return res
+        #     res = 1 if node.val >= currMax else 0
+        #     res += dfs(node.left, max(currMax, node.val))
+        #     res += dfs(node.right, max(currMax, node.val))
+        #     return res
+        # res = dfs(root, float("-infinity"))
+        # return res
 
         def bfs(root):
             if not root:
@@ -27,9 +27,9 @@ class Solution:
                 node, maxValue = q.popleft()
                 if node.val >= maxValue:
                     res += 1
-                if not node.left:
+                if node.left:
                     q.append((node.left, max(maxValue, node.val))) 
-                if not node.right:
+                if node.right:
                     q.append((node.right, max(maxValue, node.val))) 
             return res
         return bfs(root)
