@@ -2,17 +2,29 @@ class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         ROWS = len(board)
         COLS = len(board[0])
+        directions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
+
         def dfs(r, c, i):
-            if i >= len(word):
+            if i == len(word):
                 return True
 
-            if min(r,c) < 0 or r >= ROWS or c >= COLS or board[r][c] == "#" or board[r][c] != word[i] :
+            if (
+                min(r, c) < 0
+                or r >= ROWS
+                or c >= COLS
+                or board[r][c] == "#"
+                or word[i] != board[r][c]
+            ):
                 return False
-            
-            board[r][c] = "#"
-            found = dfs(r - 1, c, i + 1) or dfs(r, c + 1, i + 1) or dfs(r + 1, c, i + 1) or dfs(r, c - 1, i + 1)
-            board[r][c] = word[i]
 
+            board[r][c] = "#"
+            found = (
+                dfs(r - 1, c, i + 1)
+                or dfs(r, c + 1, i + 1)
+                or dfs(r + 1, c, i + 1)
+                or dfs(r, c - 1, i + 1)
+            )
+            board[r][c] = word[i]
             return found
 
         for r in range(ROWS):
