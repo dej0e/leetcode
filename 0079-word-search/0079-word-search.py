@@ -10,9 +10,9 @@ class Solution:
             if min(r,c) < 0 or r >= ROWS or c >= COLS or (r, c) in visited or board[r][c] != word[i] :
                 return False
             
-            visited.add((r, c))
+            board[r][c] = "#"
             found = dfs(r - 1, c, i + 1) or dfs(r, c + 1, i + 1) or dfs(r + 1, c, i + 1) or dfs(r, c - 1, i + 1)
-            visited.remove((r, c))
+            board[r][c] = word[i]
 
             return found
 
