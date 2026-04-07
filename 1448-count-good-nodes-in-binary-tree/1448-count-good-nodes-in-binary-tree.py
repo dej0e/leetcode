@@ -17,3 +17,20 @@ class Solution:
             return res
         res = dfs(root, float("-infinity"))
         return res
+
+        def bfs(root):
+            if not root:
+                return 0
+            q = deque([(root, float("-infinity"))])
+            res = 0
+            while q:
+                node, maxValue = q.popleft()
+                if node.val >= maxValue:
+                    res += 1
+                if not node.left:
+                    q.append((node.left, max(maxValue, node.val))) 
+                if not node.right:
+                    q.append((node.right, max(maxValue, node.val))) 
+            return res
+        return bfs(root)
+
