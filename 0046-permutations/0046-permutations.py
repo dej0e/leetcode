@@ -4,7 +4,7 @@ class Solution:
             return []
         res = []
         visited = set()
-        def dfs(i, path):
+        def dfs(path):
             if len(path) == len(nums):
                 res.append(path.copy())
                 return
@@ -14,8 +14,8 @@ class Solution:
                     continue
                 path.append(nums[j])
                 visited.add(nums[j])
-                dfs(j, path)
+                dfs(path)
                 path.pop()
                 visited.remove(nums[j])
-        dfs(0, [])
+        dfs([])
         return res
