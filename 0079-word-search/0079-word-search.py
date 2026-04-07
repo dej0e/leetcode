@@ -2,12 +2,11 @@ class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         ROWS = len(board)
         COLS = len(board[0])
-        visited = set()
         def dfs(r, c, i):
             if i >= len(word):
                 return True
 
-            if min(r,c) < 0 or r >= ROWS or c >= COLS or (r, c) in visited or board[r][c] != word[i] :
+            if min(r,c) < 0 or r >= ROWS or c >= COLS or board[r][c] == "#" or board[r][c] != word[i] :
                 return False
             
             board[r][c] = "#"
