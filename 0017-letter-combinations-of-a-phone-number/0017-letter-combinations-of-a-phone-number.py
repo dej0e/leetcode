@@ -16,7 +16,7 @@ class Solution:
 
         curr = []
         def dfs(i):
-            if len(curr) >= len(digits):
+            if i >= len(digits):
                 res.append("".join(curr))
                 return
             
