@@ -8,11 +8,13 @@ class Solution:
             
             if i >= len(candidates) or total > target:
                 return
-
-            path.append(candidates[i])
-            dfs(i, path, total + candidates[i])
-            path.pop()
-            dfs(i + 1, path, total)
+            
+            for j in range(i, len(candidates)):
+                if total + candidates[j] > target:
+                    continue
+                path.append(candidates[j])
+                dfs(j, path, total + candidates[j])
+                path.pop()
         
         dfs(0, [], 0)
         return res
