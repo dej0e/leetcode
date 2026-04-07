@@ -1,19 +1,21 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
+        if not nums:
+            return []
         res = []
-        def dfs(idx, curr, picked):
-            if len(curr) == len(nums):
-                res.append(curr.copy())
+        visited = set()
+        def dfs(i, path):
+            if len(path) == len(nums):
+                res.append(path.copy())
                 return
-
-            for i in range(len(nums)):
-                if picked[i]:
+            
+            for j in range(len(nums)):
+                if nums[j] in visited:
                     continue
-                curr.append(nums[i])
-                picked[i] = True
-                dfs(i, curr, picked)
-                picked[i] = False
-                curr.pop()
-
-        dfs(0, [], [False]*len(nums))
+                path.append(nums[j])
+                visited.add(nums[j])
+                dfs(j, path)
+                path.pop()
+                visited.remove(nums[j])
+        dfs(0, [])
         return res
