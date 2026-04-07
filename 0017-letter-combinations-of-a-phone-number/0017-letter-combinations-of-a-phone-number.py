@@ -14,15 +14,18 @@ class Solution:
         }
 
 
-
-        def dfs(i, curr):
+        curr = []
+        def dfs(i):
             if len(curr) >= len(digits):
-                res.append(curr[:])
+                res.append("".join(curr))
                 return
             
             for c in digit_map[digits[i]]:
-                dfs(i + 1, curr + c)
+                curr.append(c)
+                dfs(i + 1)
+                curr.pop()
+                
         if digits:
-            dfs(0, "")
+            dfs(0)
         return res
             
