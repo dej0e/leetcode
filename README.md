@@ -439,6 +439,7 @@
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/dej0e/leetcode/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/dej0e/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0271-encode-and-decode-strings](https://github.com/dej0e/leetcode/tree/master/0271-encode-and-decode-strings) |
@@ -644,6 +645,7 @@
 | [0020-valid-parentheses](https://github.com/dej0e/leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/dej0e/leetcode/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/dej0e/leetcode/tree/master/0155-min-stack) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Monotonic Stack
 |  |
