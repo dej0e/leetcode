@@ -185,6 +185,7 @@
 | [0792-binary-search](https://github.com/dej0e/leetcode/tree/master/0792-binary-search) |
 | [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
+| [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
@@ -418,6 +419,7 @@
 | [0435-non-overlapping-intervals](https://github.com/dej0e/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
+| [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Binary Search
 |  |
@@ -648,12 +650,14 @@
 | [0143-reorder-list](https://github.com/dej0e/leetcode/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/dej0e/leetcode/tree/master/0155-min-stack) |
 | [0739-daily-temperatures](https://github.com/dej0e/leetcode/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0739-daily-temperatures](https://github.com/dej0e/leetcode/tree/master/0739-daily-temperatures) |
+| [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Bucket Sort
 |  |
