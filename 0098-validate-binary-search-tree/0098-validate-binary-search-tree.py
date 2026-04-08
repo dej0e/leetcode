@@ -6,30 +6,34 @@
 #         self.right = right
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def valid(node, left, right):
-            if not node:
-                return True
-            
+       
+        if not root:
+            return False
+        q = deque()
+        q.append((root, float("-infinity"), float("infinity")))
+        while q:
+            node, left, right = q.popleft()
             if not (left < node.val < right):
                 return False
-
-            return valid(node.left, left, node.val) and valid(node.right, node.val, right)
             
+            if node.left:
+                q.append((node.left, left, node.val))
+            
+            if node.right:
+                q.append((node.right, node.val, right))
+        return True
 
-        return valid(root, float("-infinity"), float("infinity"))
 
-        # if not root:
-        #     return False
-        # q = deque()
-        # q.append((root, float("-infinity"), float("infinity")))
-        # while q:
-        #     node, left, right = q.popleft()
+
+
+         # def valid(node, left, right):
+        #     if not node:
+        #         return True
+            
         #     if not (left < node.val < right):
         #         return False
+
+        #     return valid(node.left, left, node.val) and valid(node.right, node.val, right)
             
-        #     if node.left:
-        #         q.append((node.left, left, node.val))
-            
-        #     if node.right:
-        #         q.append((node.right, node.val, right))
-        # return True
+
+        # return valid(root, float("-infinity"), float("infinity"))
