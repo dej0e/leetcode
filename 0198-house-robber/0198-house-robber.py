@@ -1,7 +1,7 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
-        #Memoization
+        #Memoization (top down)
         # dp = [-1] * n
         # def houserob(ind):
         #     if ind == 0:
@@ -22,7 +22,7 @@ class Solution:
 
         # return houserob(n-1)
 
-        #Tabulation
+        #Tabulation (bottom up)
         # dp = [-1] * n
         # dp[0] = nums[0]
         # for i in range(1, n):
@@ -34,7 +34,7 @@ class Solution:
         #     dp[i] = max(pick, notPick)
         # return dp[n-1]
 
-        # Space Optimized
+        # Tabulation - Space Optimized 
         prev2 = 0 
         prev = nums[0]
         for i in range(1, n):
