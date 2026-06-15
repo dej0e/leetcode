@@ -23,13 +23,27 @@ class Solution:
         # return houserob(n-1)
 
         #Tabulation
-        dp = [-1] * n
-        dp[0] = nums[0]
+        # dp = [-1] * n
+        # dp[0] = nums[0]
+        # for i in range(1, n):
+        #     pick = nums[i]
+        #     if i > 1:
+        #         pick += dp[i - 2]
+            
+        #     notPick = 0 + dp[i - 1]
+        #     dp[i] = max(pick, notPick)
+        # return dp[n-1]
+
+        # Space Optimized
+        prev2 = 0 
+        prev = nums[0]
         for i in range(1, n):
             pick = nums[i]
             if i > 1:
-                pick += dp[i - 2]
-            
-            notPick = 0 + dp[i - 1]
-            dp[i] = max(pick, notPick)
-        return dp[n-1]
+                pick += prev2
+            notPick = 0 + prev
+
+            curri = max(pick, notPick)
+            prev2 = prev
+            prev = curri
+        return prev
