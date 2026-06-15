@@ -1,17 +1,26 @@
 class Solution:
     def rob(self, nums: List[int]) -> int:
-        if len(nums) == 1:
-            return nums[-1]
-        n = len(nums)
-        return max(self.houseRob(nums[: n - 1]), self.houseRob(nums[1:n]))
     
-    def houseRob(self, nums) -> int:
         if len(nums) == 1:
-            return nums[-1]
+            return nums[0]
+        withoutFirst = nums[1:]
+        withoutLast = nums[:-1]
+        return max(self.rob1(withoutFirst), self.rob1(withoutLast))
+
+    def rob1(self, nums: List[int]) -> int:
         n = len(nums)
-        dp = [0] * n
-        dp[0] = nums[0]
-        dp[1] = max(nums[0], nums[1])
-        for i in range(2, n):
-            dp[i] = max(dp[i - 1], nums[i] + dp[i - 2])
-        return dp[n-1]
+        prev = nums[0]
+        prev2 = 0
+        for i in range(1, n):
+            pick = nums[i]
+            if i > 1:
+                pick += prev2
+            
+            notPick = 0 + prev
+
+            curri = max(pick, notPick)
+            prev2 = prev
+            prev = curri
+        return prev
+
+    
