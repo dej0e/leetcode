@@ -1,26 +1,18 @@
 class Codec:
     def encode(self, strs: List[str]) -> str:
         """Encodes a list of strings to a single string."""
-        res = ""
-        for s in strs:
-            res += f"{str(len(s))}#{s}"
-        return res
+        encoded = []
+        for text in strs:
+            encoded.append(text.replace(" ", "�"))
+        return "ϴ".join(encoded)
 
     def decode(self, s: str) -> List[str]:
         """Decodes a single string to a list of strings."""
-        i = 0
+        strings = s.split("ϴ")
         res = []
-        while i < len(s):
-            """
-            5#apple12#elephantmeme
-            """
-            j = i
-            while s[j] != "#":
-                j += 1
-            length = int(s[i : j])
-            i = j + 1
-            res.append(s[i : i + length])
-            i = i + length
+        for text in strings:
+            decoded = text.replace("�", " ")
+            res.append(decoded)
         return res
 
 
