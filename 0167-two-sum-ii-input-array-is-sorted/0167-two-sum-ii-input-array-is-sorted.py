@@ -5,8 +5,6 @@ class Solution:
         
         while l <= r:
             sum = numbers[l] + numbers[r]
-            diff = target - sum
-
             if sum  > target:
                 r = r - 1
             elif sum < target: 
@@ -14,3 +12,4 @@ class Solution:
             elif sum == target:
                 return [l + 1, r + 1]
         
+        return []
