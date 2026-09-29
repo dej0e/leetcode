@@ -4,8 +4,8 @@
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/dej0e/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
@@ -34,8 +34,8 @@
 | [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/dej0e/leetcode/tree/master/0014-longest-common-prefix) |
@@ -69,8 +69,8 @@
 | [1143-longest-common-subsequence](https://github.com/dej0e/leetcode/tree/master/1143-longest-common-subsequence) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## Backtracking
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/dej0e/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/dej0e/leetcode/tree/master/0039-combination-sum) |
@@ -86,8 +86,8 @@
 | [0212-word-search-ii](https://github.com/dej0e/leetcode/tree/master/0212-word-search-ii) |
 | [0257-binary-tree-paths](https://github.com/dej0e/leetcode/tree/master/0257-binary-tree-paths) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/dej0e/leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
@@ -116,8 +116,8 @@
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
 | [1143-longest-common-subsequence](https://github.com/dej0e/leetcode/tree/master/1143-longest-common-subsequence) |
 ## Array
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0001-two-sum](https://github.com/dej0e/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/dej0e/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/dej0e/leetcode/tree/master/0011-container-with-most-water) |
@@ -201,21 +201,21 @@
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/dej0e/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 ## Trie
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/dej0e/leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/dej0e/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/dej0e/leetcode/tree/master/0212-word-search-ii) |
 ## Memoization
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0070-climbing-stairs](https://github.com/dej0e/leetcode/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/dej0e/leetcode/tree/master/0139-word-break) |
 ## Breadth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0100-same-tree](https://github.com/dej0e/leetcode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/dej0e/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/dej0e/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
@@ -251,8 +251,8 @@
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/dej0e/leetcode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/dej0e/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
@@ -281,8 +281,8 @@
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0079-word-search](https://github.com/dej0e/leetcode/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/dej0e/leetcode/tree/master/0100-same-tree) |
@@ -322,8 +322,8 @@
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Binary Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/dej0e/leetcode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/dej0e/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
@@ -352,8 +352,8 @@
 | [1544-count-good-nodes-in-binary-tree](https://github.com/dej0e/leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2415-reverse-odd-levels-of-binary-tree](https://github.com/dej0e/leetcode/tree/master/2415-reverse-odd-levels-of-binary-tree) |
 ## Matrix
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0036-valid-sudoku](https://github.com/dej0e/leetcode/tree/master/0036-valid-sudoku) |
 | [0054-spiral-matrix](https://github.com/dej0e/leetcode/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/dej0e/leetcode/tree/master/0064-minimum-path-sum) |
@@ -373,27 +373,27 @@
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 ## Union Find
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0130-surrounded-regions](https://github.com/dej0e/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/dej0e/leetcode/tree/master/0261-graph-valid-tree) |
 ## Graph
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0207-course-schedule](https://github.com/dej0e/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/dej0e/leetcode/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/dej0e/leetcode/tree/master/0261-graph-valid-tree) |
 | [0444-sequence-reconstruction](https://github.com/dej0e/leetcode/tree/master/0444-sequence-reconstruction) |
 ## Topological Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0207-course-schedule](https://github.com/dej0e/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/dej0e/leetcode/tree/master/0210-course-schedule-ii) |
 | [0444-sequence-reconstruction](https://github.com/dej0e/leetcode/tree/master/0444-sequence-reconstruction) |
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/dej0e/leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/dej0e/leetcode/tree/master/0009-palindrome-number) |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
@@ -401,12 +401,12 @@
 | [0368-largest-divisible-subset](https://github.com/dej0e/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Combinatorics
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0062-unique-paths](https://github.com/dej0e/leetcode/tree/master/0062-unique-paths) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0015-3sum](https://github.com/dej0e/leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/dej0e/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/dej0e/leetcode/tree/master/0056-merge-intervals) |
@@ -422,8 +422,8 @@
 | [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Binary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/dej0e/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dej0e/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/dej0e/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
@@ -439,8 +439,8 @@
 | [0907-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Design
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/dej0e/leetcode/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/dej0e/leetcode/tree/master/0208-implement-trie-prefix-tree) |
@@ -452,16 +452,16 @@
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 | [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 ## Segment Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 ## Ordered Set
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/dej0e/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/dej0e/leetcode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/dej0e/leetcode/tree/master/0015-3sum) |
@@ -481,8 +481,8 @@
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/dej0e/leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Greedy
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0011-container-with-most-water](https://github.com/dej0e/leetcode/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/dej0e/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/dej0e/leetcode/tree/master/0055-jump-game) |
@@ -496,8 +496,8 @@
 | [1899-merge-triplets-to-form-target-triplet](https://github.com/dej0e/leetcode/tree/master/1899-merge-triplets-to-form-target-triplet) |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/dej0e/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 ## Sliding Window
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dej0e/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/dej0e/leetcode/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/dej0e/leetcode/tree/master/0239-sliding-window-maximum) |
@@ -507,21 +507,21 @@
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## Prefix Sum
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/dej0e/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/dej0e/leetcode/tree/master/0253-meeting-rooms-ii) |
 ## String Matching
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/dej0e/leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/dej0e/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -530,14 +530,14 @@
 | [0784-insert-into-a-binary-search-tree](https://github.com/dej0e/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1038-binary-search-tree-to-greater-sum-tree](https://github.com/dej0e/leetcode/tree/master/1038-binary-search-tree-to-greater-sum-tree) |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0078-subsets](https://github.com/dej0e/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/dej0e/leetcode/tree/master/0090-subsets-ii) |
 | [0287-find-the-duplicate-number](https://github.com/dej0e/leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/dej0e/leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dej0e/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/dej0e/leetcode/tree/master/0021-merge-two-sorted-lists) |
@@ -551,19 +551,19 @@
 | [0355-design-twitter](https://github.com/dej0e/leetcode/tree/master/0355-design-twitter) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/dej0e/leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Doubly-Linked List
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0146-lru-cache](https://github.com/dej0e/leetcode/tree/master/0146-lru-cache) |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0002-add-two-numbers](https://github.com/dej0e/leetcode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/dej0e/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/dej0e/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/dej0e/leetcode/tree/master/0143-reorder-list) |
 ## Divide and Conquer
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/dej0e/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/dej0e/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/dej0e/leetcode/tree/master/0053-maximum-subarray) |
@@ -573,8 +573,8 @@
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/dej0e/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/dej0e/leetcode/tree/master/0239-sliding-window-maximum) |
@@ -589,27 +589,27 @@
 | [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/dej0e/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 ## Data Stream
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/dej0e/leetcode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Geometry
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Quickselect
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/dej0e/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Counting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 ## Graph Theory
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0133-clone-graph](https://github.com/dej0e/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/dej0e/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/dej0e/leetcode/tree/master/0210-course-schedule-ii) |
@@ -621,8 +621,8 @@
 | [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/dej0e/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Union-Find
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/dej0e/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/dej0e/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/dej0e/leetcode/tree/master/0200-number-of-islands) |
@@ -633,18 +633,18 @@
 | [0827-making-a-large-island](https://github.com/dej0e/leetcode/tree/master/0827-making-a-large-island) |
 | [1584-min-cost-to-connect-all-points](https://github.com/dej0e/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/dej0e/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 ## Monotonic Queue
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/dej0e/leetcode/tree/master/0239-sliding-window-maximum) |
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0020-valid-parentheses](https://github.com/dej0e/leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/dej0e/leetcode/tree/master/0143-reorder-list) |
@@ -653,31 +653,31 @@
 | [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Monotonic Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/dej0e/leetcode/tree/master/0042-trapping-rain-water) |
 | [0739-daily-temperatures](https://github.com/dej0e/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 ## Bucket Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Shortest Path
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0743-network-delay-time](https://github.com/dej0e/leetcode/tree/master/0743-network-delay-time) |
 | [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 ## Minimum Spanning Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/dej0e/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
 ## Merge Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/dej0e/leetcode/tree/master/0023-merge-k-sorted-lists) |
 ## Simulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0054-spiral-matrix](https://github.com/dej0e/leetcode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
