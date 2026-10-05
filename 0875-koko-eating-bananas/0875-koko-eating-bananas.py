@@ -6,7 +6,7 @@ class Solution:
             mid = l + ((r - l) // 2)
             total_time = 0 
             for p in piles:
-                total_time += math.ceil(float(p) / mid)
+                total_time += math.ceil(p / mid)
             
             if total_time <= h:
                 ans = mid
