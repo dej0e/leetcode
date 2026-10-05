@@ -177,6 +177,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/dej0e/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/dej0e/leetcode/tree/master/0695-max-area-of-island) |
+| [0704-binary-search](https://github.com/dej0e/leetcode/tree/main/0704-binary-search/) | Easy |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 | [0733-flood-fill](https://github.com/dej0e/leetcode/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/dej0e/leetcode/tree/master/0739-daily-temperatures) |
@@ -433,6 +434,7 @@
 | [0287-find-the-duplicate-number](https://github.com/dej0e/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/dej0e/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0540-single-element-in-a-sorted-array](https://github.com/dej0e/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0704-binary-search](https://github.com/dej0e/leetcode/tree/main/0704-binary-search/) | Easy |
 | [0729-my-calendar-i](https://github.com/dej0e/leetcode/tree/master/0729-my-calendar-i) |
 | [0792-binary-search](https://github.com/dej0e/leetcode/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0875-koko-eating-bananas) |
