@@ -4,7 +4,6 @@ class Solution:
         l, r = 0, len(nums) - 1
         while l <= r:
             mid = l + ((r - l) // 2)
-            res = min(res, nums[mid])
             if nums[mid] >= nums[l]:
                 # left side is sorted
                 res = min(res, nums[l])
