@@ -1,16 +1,14 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        l = 0
-        r = len(nums) - 1
-        res = float("infinity")
+        res = math.inf
+        l, r = 0, len(nums) - 1
         while l <= r:
-            if nums[l] < nums[r]:
-                res = min(res, nums[l])
-                break
-            mid = (l + r) // 2
+            res = min(res, nums[l])
+            mid = l + ((r - l) // 2)
             res = min(res, nums[mid])
-            if nums[mid] > nums[r]: # min is on the right side
+            if nums[mid] >= nums[l]:
+                # left side is sorted
                 l = mid + 1
-            else:
+            elif nums[mid] <= nums[r]:
                 r = mid - 1
         return res
