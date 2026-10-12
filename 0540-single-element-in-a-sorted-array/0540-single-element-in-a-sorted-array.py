@@ -1,21 +1,26 @@
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
-        # “Is the single s at or to the left of index idx?”
-        def is_single_on_or_before(idx: int) -> bool:
-            if idx == len(nums) - 1:
-                return True
-            elif idx % 2 == 0:
-                return nums[idx] != nums[idx + 1]
+        n = len(nums)
+        if n == 1:
+            return nums[0]
+        
+        if nums[0] != nums[1]:
+            return nums[0]
+        
+        if nums[n - 1] != nums[n - 2]:
+            return nums[n - 1]
+        
+        l, h = 1, n - 2
+        while l <= h:
+            mid = l + ((h-l) // 2)
+            if nums[mid] != nums[mid - 1] and nums[mid] != nums[mid + 1]:  
+                # found the lone element
+                return nums[mid]
+            
+            if (mid % 2 == 0 and nums[mid] == nums[mid + 1]) or (mid % 2 == 1 and nums[mid] == nums[mid - 1]):
+                # (even, odd) scenario, single element is on the right
+                l = mid 
             else:
-                return nums[idx] != nums[idx - 1]
-
-        left, right = 0, len(nums) - 1
-        ans = -1
-        while left <= right:
-            mid = (left + right) // 2
-            if is_single_on_or_before(mid):
-                ans = mid
-                right = mid - 1
-            else:
-                left = mid + 1
-        return nums[ans]
+                # (odd, even) scenario, single element is on left half
+                h = mid
+        return -1
