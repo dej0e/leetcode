@@ -4,8 +4,9 @@ class Solution:
         while l <= h:
             mid = l + ((h - l) // 2)
             sq = mid * mid
-            if sq > x:
-                h = mid - 1
-            else:
+            
+            if sq <= x:
                 l = mid + 1
+            else:
+                h = mid - 1
         return h
