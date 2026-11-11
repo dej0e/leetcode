@@ -197,6 +197,7 @@
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/dej0e/leetcode/tree/master/1046-last-stone-weight) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/dej0e/leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/dej0e/leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/dej0e/leetcode/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1514-path-with-maximum-probability](https://github.com/dej0e/leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1584-min-cost-to-connect-all-points](https://github.com/dej0e/leetcode/tree/master/1584-min-cost-to-connect-all-points) |
@@ -511,12 +512,14 @@
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/dej0e/leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/dej0e/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/dej0e/leetcode/tree/master/0253-meeting-rooms-ii) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/dej0e/leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
