@@ -31,6 +31,7 @@
 | [0753-open-the-lock](https://github.com/dej0e/leetcode/tree/master/0753-open-the-lock) |
 | [0763-partition-labels](https://github.com/dej0e/leetcode/tree/master/0763-partition-labels) |
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
+| [0904-fruit-into-baskets](https://github.com/dej0e/leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## String
@@ -189,6 +190,7 @@
 | [0846-hand-of-straights](https://github.com/dej0e/leetcode/tree/master/0846-hand-of-straights) |
 | [0853-car-fleet](https://github.com/dej0e/leetcode/tree/master/0853-car-fleet) |
 | [0875-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0875-koko-eating-bananas) |
+| [0904-fruit-into-baskets](https://github.com/dej0e/leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0907-koko-eating-bananas](https://github.com/dej0e/leetcode/tree/master/0907-koko-eating-bananas) |
 | [0918-maximum-sum-circular-subarray](https://github.com/dej0e/leetcode/tree/master/0918-maximum-sum-circular-subarray) |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -513,6 +515,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/dej0e/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/dej0e/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/dej0e/leetcode/tree/master/0567-permutation-in-string) |
+| [0904-fruit-into-baskets](https://github.com/dej0e/leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
 | [1004-max-consecutive-ones-iii](https://github.com/dej0e/leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/dej0e/leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
