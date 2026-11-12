@@ -12,7 +12,7 @@ class Solution:
                 if pick[fruits[l]] == 0:
                     del pick[fruits[l]]
                 l += 1
-            else:
+            if len(pick) <= k:
                 maxlen = max(maxlen, r - l + 1)
 
             r += 1
