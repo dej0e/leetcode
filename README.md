@@ -35,6 +35,7 @@
 | [0904-fruit-into-baskets](https://github.com/dej0e/leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/dej0e/leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/dej0e/leetcode/tree/master/0981-time-based-key-value-store) |
+| [0992-subarrays-with-k-different-integers](https://github.com/dej0e/leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1248-count-number-of-nice-subarrays](https://github.com/dej0e/leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [2516-take-k-of-each-character-from-left-and-right](https://github.com/dej0e/leetcode/tree/master/2516-take-k-of-each-character-from-left-and-right) |
 ## String
@@ -200,6 +201,7 @@
 | [0930-binary-subarrays-with-sum](https://github.com/dej0e/leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/dej0e/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
+| [0992-subarrays-with-k-different-integers](https://github.com/dej0e/leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [0994-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/dej0e/leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1036-rotting-oranges](https://github.com/dej0e/leetcode/tree/master/1036-rotting-oranges) |
@@ -526,6 +528,7 @@
 | [0904-fruit-into-baskets](https://github.com/dej0e/leetcode/tree/main/0904-fruit-into-baskets/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/dej0e/leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0978-longest-turbulent-subarray](https://github.com/dej0e/leetcode/tree/master/0978-longest-turbulent-subarray) |
+| [0992-subarrays-with-k-different-integers](https://github.com/dej0e/leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1004-max-consecutive-ones-iii](https://github.com/dej0e/leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/dej0e/leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/dej0e/leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
@@ -635,6 +638,7 @@
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/dej0e/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/dej0e/leetcode/tree/master/0621-task-scheduler) |
+| [0992-subarrays-with-k-different-integers](https://github.com/dej0e/leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
