@@ -1,6 +1,8 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: list[int], k: int) -> int:
         def atmost(k1: int):
+            if k == 0:
+                return 0
             l = r = 0
             count = 0
             mapp = defaultdict(int)
