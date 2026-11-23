@@ -1,7 +1,7 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: list[int], k: int) -> int:
         def atmost(k1: int):
-            if k == 0:
+            if k1 == 0:
                 return 0
             l = r = 0
             count = 0
@@ -16,4 +16,5 @@ class Solution:
                 count += (r - l + 1)
                 r += 1
             return count
+
         return atmost(k) - atmost(k - 1)
