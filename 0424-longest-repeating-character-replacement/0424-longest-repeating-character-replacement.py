@@ -5,7 +5,7 @@ class Solution:
         count = defaultdict(int)
         while r < len(s):
             count[s[r]] += 1
-            while (r - l + 1) - max(count.values()) > k:
+            if (r - l + 1) - max(count.values()) > k:
                 count [s[l]] -= 1
                 if count[s[l]] == 0:
                     del count[s[l]]
